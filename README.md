@@ -6,7 +6,7 @@
  
 # Ultimate list of Linux bash commands
 
-_Bash is the Unix command-line interface (CLI). Also called the terminal, the command line, or the shell. It's a command language that allows us to work with files on our computers in a way that's far more efficient and powerful than using a GUI (graphical user interface)_
+_Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&client=firefox-b-d&sxsrf=ALiCzsZmYtgn9ctD5vHAqgVFkM5tZ514pw%3A1667926333803&ei=PYlqY6XIMNmNwbkPqeK3qAo&ved=0ahUKEwjl2ozlhZ_7AhXZRjABHSnxDaUQ4dUDCA4&uact=5&oq=What+is+UNIX+explain%3F&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIFCAAQhgMyBQgAEIYDMgUIABCGAzIFCAAQhgM6CggAEEcQ1gQQsAM6BwgAELADEENKBAhNGAFKBAhBGABKBAhGGABQnAFYnAFgvwNoAXABeACAAa0BiAGtAZIBAzAuMZgBAKABAqABAcgBCsABAQ&sclient=gws-wiz-serp) command-line interface (CLI). Also called the terminal, the command line, or the shell. It's a command language that allows us to work with files on our computers in a way that's far more efficient and powerful than using a GUI (graphical user interface)_
 
 <details><summary><h3>A to Z command list 📚</h3></summary>
 <p>
@@ -3024,6 +3024,9 @@ _Bash is the Unix command-line interface (CLI). Also called the terminal, the co
 </tbody>
 </table>
 
+<p align="center">
+Credits: <a href="https://fossbytes.com/"><b>fossbytes.com</b></a>
+
 [⬆ ʀᴇᴛᴜʀɴ ᴛᴏ ᴛᴏᴩ](#table) 
 </p>
  </details>
@@ -3117,6 +3120,7 @@ stat foo                  # List size, created and modified timestamps for a dir
 tree                      # List directory and file tree
 tree -a                   # List directory and file tree including hidden
 tree -d                   # List directory tree
+
 cd foo                    # Go to foo sub-directory
 cd                        # Go to home directory
 cd ~                      # Go to home directory
@@ -3888,7 +3892,7 @@ esac
 </tr>
 <tr>
 <td class="tg-yw4l">-</td>
-<td class="tg-yw4l">Previous directory [dash]. Go back to previous directories.</td>
+<td class="tg-yw4l">Previous directory [dash]. Go back to previous directory.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">/</td>
@@ -3904,7 +3908,7 @@ esac
 </tr>
 <tr>
 <td class="tg-yw4l">||</td>
-<td class="tg-yw4l">The OR operator is used to chain commands. It will execute succeeded commands which follows and only stops if a preceding command fails.</tr>
+<td class="tg-yw4l">The OR operator is used to chain commands. It will execute succeeded commands which follows and stops if the preceding command fails.</tr>
 <tr>
 <td class="tg-yw4l">&&</td>
 <td class="tg-yw4l">The AND operator is used to chain commands. It will execute commands only if the first command is successful</td>
@@ -3967,11 +3971,11 @@ esac
 </tr>
 <tr>
 <td class="tg-yw4l">[ ]</td>
-<td class="tg-yw4l">Test expression between [ ]. Is part of the shell builtin test.</td>
+<td class="tg-yw4l">Test expression between [ ]. It is part of the shell builtin test.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">[[ ]]</td>
-<td class="tg-yw4l">Test expression between [[ ]]. More flexible than the single-bracket [ ] test.</td>
+<td class="tg-yw4l">Test expression between [[ ]]. It is more flexible than the single-bracket [ ] test.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">(( ))</td>
@@ -4004,18 +4008,19 @@ esac
 | Ctrl+e     | Moves cursor to end of text in line |
 | Ctrl+b     | Moves cursor backward one character position |
 | Ctrl+f     | Moves cursor forward one character position  |
-| Ctrl+p     | Fetch previous command from history buffer  |
-| Ctrl+n     | Fetch next command from history buffer  |
-| Ctrl+r     | Reverse search commands in history buffer   |
+| Ctrl+p     | Fetch previous command from history list  |
+| Ctrl+n     | Fetch next command from history list  |
+| Ctrl+d     | Erase characters from cursor left to right  |
 | Ctrl+u     | Erase a line of input from cursor right to left of line |
 | Ctrl+k     | Erase a line of input from cursor left to right of line |
-| Ctrl+w     | Erases backwards to first non-alphanumeric character or space |
+| Ctrl+w     | Erase backwards to first non-alphanumeric character or empty space |
 | Ctrl+y     | Fetch back command previously erased |
 | Ctrl+t     | Reverses the position of the character the cursor is on with the previous character |
+| Ctrl+r     | Reverse search commands from history list |
 | Ctrl+z     | Pauses a foreground job  |
 | Ctrl+c     | Break/Terminate a foreground job |
 | Ctrl+o     | Accept the current line for execution and fetch the next command |
-| Ctrl+l     | Clear screen (command line needs to be empty) |
+| Ctrl+l     | Clear screen contents (command line needs to be empty) |
 | Ctrl+s     | Suspend |
 | Ctrl+q     | Resume |
 | Ctrl+d     | Log out from a shell (similar to exit) |
