@@ -36,7 +36,7 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 </tr>
 <tr>
 <td class="tg-yw4l">access</td>
-<td class="tg-yw4l">Check a user’s RWX permission for a file.</td>
+<td class="tg-yw4l">Check a user’s RWX(read, write and execute) permission for a file.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">accton</td>
@@ -329,6 +329,10 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 <td class="tg-yw4l">GNU C and C++ compiler.</td>
 </tr>
 <tr>
+<td class="tg-yw4l">ccrypt</td>
+<td class="tg-yw4l">Used for encryption and decryption of data.</td>
+</tr>
+<tr>
 <td class="tg-yw4l">cd</td>
 <td class="tg-yw4l">Used to change directory.</td>
 </tr>
@@ -590,6 +594,10 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 <td class="tg-yw4l">Examine and control the kernel ring buffer.</td>
 </tr>
 <tr>
+<td class="tg-yw4l">dmidecode</td>
+<td class="tg-yw4l">Used when the user wants to retrieve system’s hardware related information such as Processor, RAM(DIMMs), BIOS detail, etc. of Linux system in a readable format.</td>
+</tr>
+<tr>
 <td class="tg-yw4l">dnsdomainname</td>
 <td class="tg-yw4l">Show the DNS domain name of the system.</td>
 </tr>
@@ -619,6 +627,10 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 </tr>
 <tr>
 <td class="tg-yw4l">dosfsck</td>
+<td class="tg-yw4l">Used to retrieve information or statistics form components of the system such as network connections, IO devices, or CPU, etc.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">dstat</td>
 <td class="tg-yw4l">Check and repair MS-DOS file systems.</td>
 </tr>
 <tr>
@@ -800,6 +812,10 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 <td class="tg-yw4l">Do nothing, unsuccessfully. Exit with a status code indicating failure.</td>
 </tr>
 <tr>
+<td class="tg-yw4l">fc</td>
+<td class="tg-yw4l">Used to list, edit or re-execute the commands previously entered into an interactive shell.</td>
+</tr>
+<tr>
 <td class="tg-yw4l">fc-cache</td>
 <td class="tg-yw4l">Make font information cache after scanning the directories.</td>
 </tr>
@@ -890,6 +906,10 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 <tr>
 <td class="tg-yw4l">function</td>
 <td class="tg-yw4l">Used to define function macros.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">Fun</td>
+<td class="tg-yw4l">Used to draw various type of patterns on the terminal.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">fuser</td>
@@ -1066,6 +1086,10 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 <td class="tg-yw4l">Display/set the hostname of the system.</td>
 </tr>
 <tr>
+<td class="tg-yw4l">hostnamectl</td>
+<td class="tg-yw4l">Provides a proper API used to control Linux system hostname and change its related settings.</td>
+</tr>
+<tr>
 <td class="tg-yw4l">htdigest</td>
 <td class="tg-yw4l">Manage the user authentication file used by the Apache web server.</td>
 </tr>
@@ -1111,6 +1135,10 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 <td class="tg-yw4l">Stops a network interface.</td>
 </tr>
 <tr>
+<td class="tg-yw4l">iftop</td>
+<td class="tg-yw4l">It is a network analyzing tool used by system administrators to view the bandwidth related stats.</td>
+</tr>
+<tr>
 <td class="tg-yw4l">ifup</td>
 <td class="tg-yw4l">Starts a network interface.</td>
 </tr>
@@ -1147,6 +1175,10 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 <td class="tg-yw4l">Shows statistics for CPU, I/O devices, partitions, network filesystems.</td>
 </tr>
 <tr>
+<td class="tg-yw4l">iotop</td>
+<td class="tg-yw4l">Used to display and monitor the disk IO usage details and even gets a table of existing IO utilization by the process.</td>
+</tr>
+<tr>
 <td class="tg-yw4l">ip</td>
 <td class="tg-yw4l">Display/manipulate routing, devices, policy, routing and tunnels.</td>
 </tr>
@@ -1169,6 +1201,10 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 <tr>
 <td class="tg-yw4l">iptables-save</td>
 <td class="tg-yw4l">Used to dump IP table contents to standard output.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">iwconfig</td>
+<td class="tg-yw4l">Used to display the parameters, and the wireless statistics which are extracted from /proc/net/wireless.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">isodump</td>
@@ -1210,6 +1246,10 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 <tr>
 <td class="tg-yw4l">join</td>
 <td class="tg-yw4l">For each pair of input lines, join them using a command field and display on standard output.</td>
+</tr>
+</tbody>
+<td class="tg-yw4l">journalctl</td>
+<td class="tg-yw4l">Used to view systemd, kernal and journal logs.</td>
 </tr>
 </tbody>
 </table>
@@ -1420,6 +1460,10 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 <tr>
 <td class="tg-yw4l">lsblk</td>
 <td class="tg-yw4l">Lists information about all available or the specified block devices.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">lshw</td>
+<td class="tg-yw4l">Used to generate the detailed information of the system’s hardware configuration from various files in the /proc directory.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">lsmod</td>
@@ -1652,6 +1696,10 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 </tr>
 <tr>
 <td class="tg-yw4l">mpartition</td>
+<td class="tg-yw4l">Used to report processor related statistics.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">mpstat</td>
 <td class="tg-yw4l">Partition an MS-DOS disk.</td>
 </tr>
 <tr>
@@ -2233,6 +2281,10 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 <td class="tg-yw4l">Find SCSI and USB scanner and determine their device files.</td>
 </tr>
 <tr>
+<td class="tg-yw4l">sar</td>
+<td class="tg-yw4l">Used to monitor Linux system’s resources like CPU usage, Memory utilization, I/O devices consumption, etc..</td>
+</tr>
+<tr>
 <td class="tg-yw4l">scanadf</td>
 <td class="tg-yw4l">Retrieve multiple images from a scanner equipped with an automatic document feeder (ADF).</td>
 </tr>
@@ -2251,6 +2303,10 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 <tr>
 <td class="tg-yw4l">script</td>
 <td class="tg-yw4l">Used to make a typescript of everything displayed on the screen during a terminal session.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">scriptreplay</td>
+<td class="tg-yw4l">Used to replay a typescript/terminal_activity stored in the log file that was recorded by the script command.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">sdiff</td>
@@ -2614,6 +2670,10 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 <td class="tg-yw4l">Trap function responds to hardware signals. It defines and creates handlers to run when the shell receives signals.</td>
 </tr>
 <tr>
+<td class="tg-yw4l">tree</td>
+<td class="tg-yw4l">A recursive directory listing program that produces a depth-indented listing of files.</td>
+</tr>
+<tr>
 <td class="tg-yw4l">troff</td>
 <td class="tg-yw4l">The troff processor of the groff text formatting system.</td>
 </tr>
@@ -2707,6 +2767,10 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 <td class="tg-yw4l">Convert units from one scalar to another.</td>
 </tr>
 <tr>
+<td class="tg-yw4l">unix2dos</td>
+<td class="tg-yw4l">Converts a Unix text file to DOS format.</td>
+</tr>
+<tr>
 <td class="tg-yw4l">unrar</td>
 <td class="tg-yw4l">Extract files from a RAR archive.</td>
 </tr>
@@ -2737,6 +2801,10 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 <tr>
 <td class="tg-yw4l">usermod</td>
 <td class="tg-yw4l">Modify a user account.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">username</td>
+<td class="tg-yw4l">It provides a set of commands to fetch username and its configurations from the Linux host.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">users</td>
@@ -2790,6 +2858,10 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 <tr>
 <td class="tg-yw4l">vmstat</td>
 <td class="tg-yw4l">Shows information about processes, memory, paging, block IO, traps, disks, and CPU activity.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">vnstat</td>
+<td class="tg-yw4l">Used by system administrators in order to monitor network parameters such as bandwidth consumption or maybe some traffic flowing in or out.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">volname</td>
@@ -3029,7 +3101,7 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 </table>
 
 <p align="right">
-Credits: <a href="https://fossbytes.com/"><b>fossbytes.com</b></a></p>
+Credits: <a href="https://fossbytes.com"><b>fossbytes</b></a> & <a href="https://www.geeksforgeeks.org"><b>geeksforgeeks</b></a></p>
 
 [⬆ ʀᴇᴛᴜʀɴ ᴛᴏ ᴛᴏᴩ](#table) 
 </p>
