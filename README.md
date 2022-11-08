@@ -39,12 +39,16 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 <td class="tg-yw4l">Check a user’s RWX permission for a file.</td>
 </tr>
 <tr>
+<td class="tg-yw4l">accton</td>
+<td class="tg-yw4l">	Used to turn on or turn off the process for accounting or change info process accounting file.</td>
+</tr>
+<tr>
 <td class="tg-yw4l">aclocal</td>
-<td class="tg-yw4l">GNU autoconf tool.</td>
+<td class="tg-yw4l">Used to automatically generate aclocal.m4 files from configure.in file.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">aconnect</td>
-<td class="tg-yw4l">ALSA sequencer connection manager.</td>
+<td class="tg-yw4l">ALSA(Advanced Linux Sound Architecture) sequencer connection manager.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">acpi</td>
@@ -52,7 +56,7 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 </tr>
 <tr>
 <td class="tg-yw4l">acpi_available</td>
-<td class="tg-yw4l">Check if ACPI functionality exists on the system.</td>
+<td class="tg-yw4l">Check if ACPI(Advanced Configuration and Power Interface) functionality exists on the system.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">acpid</td>
@@ -68,11 +72,11 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 </tr>
 <tr>
 <td class="tg-yw4l">agetty</td>
-<td class="tg-yw4l">An alternative Linux Getty.</td>
+<td class="tg-yw4l">An alternative Linux Getty that manages physical or virtual terminals to allow multi-user access</td>
 </tr>
 <tr>
 <td class="tg-yw4l">alias</td>
-<td class="tg-yw4l">Create an alias for Linux commands.</td>
+<td class="tg-yw4l">Create an alias, a shortcut that references a command.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">alsactl</td>
@@ -200,7 +204,7 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 </tr>
 <tr>
 <td class="tg-yw4l">awk</td>
-<td class="tg-yw4l">Used to find and replace text in a file(s).</td>
+<td class="tg-yw4l">A scripting language used for manipulating data and generating reports. Also used to find and replace text in a file(s).</td>
 </tr>
 </tbody>
 </table>
