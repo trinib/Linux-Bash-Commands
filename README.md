@@ -1939,7 +1939,7 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 </tr>
 <tr>
 <td class="tg-yw4l">python</td>
-<td class="tg-yw4l"></td>
+<td class="tg-yw4l">Computer programming language often used to build websites and software, automate tasks, and conduct data analysis.</td>
 </tr>
 </tbody>
 </table>
@@ -3024,8 +3024,8 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 </tbody>
 </table>
 
-<p align="center">
-Credits: <a href="https://fossbytes.com/"><b>fossbytes.com</b></a>
+<p align="right">
+Credits: <a href="https://fossbytes.com/"><b>fossbytes.com</b></a></p>
 
 [⬆ ʀᴇᴛᴜʀɴ ᴛᴏ ᴛᴏᴩ](#table) 
 </p>
@@ -3556,6 +3556,10 @@ at tomorrow                # Create a task in Vim to execute tomorrow
 ## User Management
 
 ```bash
+sudo su                                            # switch to root user
+sudo foo                                           # execute command as the root user
+su username                                        # switch to a different user
+
 adduser username                                   # To add a new user
 passwd -l|--lock username                          # To change the password of a user
 userdel username                                   # To remove user
@@ -3872,6 +3876,10 @@ case $weather in
   ;;
 esac
 ```
+ 
+<p align=right>
+Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/Bash-Cheat-Sheet</a></p>
+
 [⬆ ʀᴇᴛᴜʀɴ ᴛᴏ ᴄᴏɴᴛᴇɴᴛꜱ](#contents)
 
 </p>
@@ -4002,28 +4010,42 @@ esac
 <details><summary><h3>Keyboard controls ⌨️<h3></summary>
 <p> 
 
-| Key  | Function |
+| Key | Function |
 | :--: | :-- |
 | Ctrl+a     | Moves cursor to beginning of text in line |
 | Ctrl+e     | Moves cursor to end of text in line |
 | Ctrl+b     | Moves cursor backward one character position |
 | Ctrl+f     | Moves cursor forward one character position  |
-| Ctrl+p     | Fetch previous command from history list  |
-| Ctrl+n     | Fetch next command from history list  |
-| Ctrl+d     | Erase characters from cursor left to right  |
 | Ctrl+u     | Erase a line of input from cursor right to left of line |
 | Ctrl+k     | Erase a line of input from cursor left to right of line |
+| Ctrl+d     | Erase character forward from cursor left to right  |
+| Ctrl+h     | Erase character backward from cursor right to left  |
 | Ctrl+w     | Erase backwards to first non-alphanumeric character or empty space |
+| Ctrl+p     | Fetch previous command from history list  |
+| Ctrl+n     | Fetch next command from history list  |
 | Ctrl+y     | Fetch back command previously erased |
 | Ctrl+t     | Reverses the position of the character the cursor is on with the previous character |
 | Ctrl+r     | Reverse search commands from history list |
 | Ctrl+z     | Pauses a foreground job  |
 | Ctrl+c     | Break/Terminate a foreground job |
+| Ctrl+m     | Clear the current line |
 | Ctrl+o     | Accept the current line for execution and fetch the next command |
-| Ctrl+l     | Clear screen contents (command line needs to be empty) |
+| Ctrl+l     | Clear screen contents (command-line needs to be empty) |
 | Ctrl+s     | Suspend |
 | Ctrl+q     | Resume |
 | Ctrl+d     | Log out from a shell (similar to exit) |
+|  |  |
+|  |  |
+|  |  |
+| Alt+b     | Moves cursor one word backwards |
+| Alt+f     | Moves cursor one word forward |
+| Alt+d     | Erase the next word from cursor left to right  |
+| Alt+t     | Reverses the position of the word the cursor is in with the previous word |
+| Alt+u     | Capitalizes every character from cursor left to right to the end of one word  |
+| Alt+l     | UnCapitalizes every character from cursor left to right to the end of one word |
+| Alt+r     | Reverts any changes to a previously executed command that is edited |
+| Alt+.     | Fetch and paste the last word at end of a command from previous commands |
+
 
 </p>
  </details>
