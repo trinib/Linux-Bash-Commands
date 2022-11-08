@@ -3639,7 +3639,7 @@ lshw                   # List all hardware
 
 ## System Information
 
-```
+```bash
 uname -s               # Print kernel name
 uname -r               # Print kernel release
 uname -m               # Print Architecture
