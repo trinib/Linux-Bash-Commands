@@ -3988,7 +3988,11 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 </tr>
 <tr>
 <td class="tg-yw4l">│</td>
-<td class="tg-yw4l">Pipe. It passes the output (stdout) of a previous command to the input (stdin) of the next one, or to the shell. This is a method of chaining commands together.</td>
+<td class="tg-yw4l">Pipe. This is a method of chaining commands together. Connects the output (stdout) of command1 to the input (stdin) of command2. Each command reads the previous command’s output.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">|&</td>
+<td class="tg-yw4l">This operator connects the output (stdout) and error (stderr) of command1 to the input (stdin) of command2.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">||</td>
@@ -4004,7 +4008,7 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 <tr>
 <tr>
 <td class="tg-yw4l">&</td>
-<td class="tg-yw4l">Run job in background[and]. A command followed by an & will run in the background.</td>
+<td class="tg-yw4l">Run job in background [and]. A command followed by an & will run in the background.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">#</td>
@@ -4012,8 +4016,12 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 </tr>
 <tr>
 <tr>
-<td class="tg-yw4l"> >, >>, < </td>
-<td class="tg-yw4l">Redirect a command's output or input into a file.</td>
+<td class="tg-yw4l"> >, >>, <</td>
+<td class="tg-yw4l">Redirect a command's output (stdout) or input (stdin) into a file.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">&>, >&</td>
+<td class="tg-yw4l">Redirects a command's both output (stdout) and error (stderr) into a file.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">>|</td>
