@@ -3992,10 +3992,10 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 </tr>
 <tr>
 <td class="tg-yw4l">||</td>
-<td class="tg-yw4l">The OR operator is used to chain commands. It will execute succeeded commands which follows and stops if the preceding command fails.</tr>
+<td class="tg-yw4l">The OR operator is used to chain commands. It will execute the first command then stop if successful, if not, it will proceed pass failed commands until one is successful and stop.</tr>
 <tr>
 <td class="tg-yw4l">&&</td>
-<td class="tg-yw4l">The AND operator is used to chain commands. It will execute commands only if the first command is successful</td>
+<td class="tg-yw4l">The AND operator is used to chain commands. It will execute commands only if the first command is successful and proceed until one fails.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">;</td>
