@@ -4037,11 +4037,11 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 <td class="tg-yw4l">Force redirection (even if the <a href="https://www.google.com/search?q=what+is+noclobber+bash+meaning+%3F&client=firefox-b-d&sxsrf=ALiCzsYjxhOR8rNOMWPfYf5DFKIqA_f7SA%3A1667859549077&ei=XYRpY4uiBMLhxgGuwoP4Cw&ved=0ahUKEwjLxNT_jJ37AhXCsDEKHS7hAL8Q4dUDCA4&uact=5&oq=what+is+noclobber+bash+meaning+%3F&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIHCCMQsAMQJzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwA0oECE0YAUoECEEYAEoECEYYAFAAWABg0gFoAXABeACAAQCIAQCSAQCYAQDIAQnAAQE&sclient=gws-wiz-serp"><b>noclobber</b></a> option is set). This will forcibly overwrite an existing file.
 </tr>
 <tr>
-<td class="tg-yw4l">""</td>
-<td class="tg-yw4l">Double quotes protects the text inside them from being split into multiple words or arguments, yet allow substitutions to occur, meaning most other special characters is usually prevented.</td>
+<td class="tg-yw4l">"</td>
+<td class="tg-yw4l">Partial quoting [double quotes]. Protects the text inside them from being split into multiple words or arguments, yet allow substitutions to occur, meaning most other special characters is usually prevented.</td>
 <tr>
-<td class="tg-yw4l">' '</td>
-<td class="tg-yw4l">Single quotes protects the text inside them so that it has a literal meaning. This is a stronger form of quoting than double quotes.</td>
+<td class="tg-yw4l">'</td>
+<td class="tg-yw4l">Full quoting [single quotes]. Protects the text inside them so that it has a literal meaning. This is a stronger form of quoting than double quotes.</td>
 </tr>
 </tr>
 <tr>
