@@ -3632,9 +3632,9 @@ at tomorrow                # Create a task in Vim to execute tomorrow
 ## User Management
 
 ```bash
-sudo su                                            # switch to root user
-sudo foo                                           # execute command as the root user
-su username                                        # switch to a different user
+sudo su                                            # Switch to root user
+sudo foo                                           # Execute command as the root user
+su username                                        # Switch to a different user
 
 adduser username                                   # To add a new user
 passwd -l|--lock username                          # To change the password of a user
@@ -3643,8 +3643,9 @@ userdel -r|--remove username                       # To remove user with home di
 usermod -a|--append -G|--groups GROUPNAME USERNAME # To add a user to a group
 deluser USER GROUPNAME                             # To remove a user from a group
 
-last                                               # Shows information of all the users logged in
-last username                                      # Gives information of a particular user
+last                                               # Display information of all the users logged in
+last username                                      # Display information of a particular user
+w                                                  # Display who is online
 ```
 [⬆ ʀᴇᴛᴜʀɴ ᴛᴏ ᴄᴏɴᴛᴇɴᴛꜱ](#contents)
 
@@ -3720,6 +3721,10 @@ uname -s               # Print kernel name
 uname -r               # Print kernel release
 uname -m               # Print Architecture
 uname -o               # Print Operating System
+
+cat /proc/cpuinfo      # Show cpu info
+cat /proc/meminfo      # Show memory info
+
 ```
 [⬆ ʀᴇᴛᴜʀɴ ᴛᴏ ᴄᴏɴᴛᴇɴᴛꜱ](#contents)
 
@@ -4059,7 +4064,6 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 <td class="tg-yw4l">?</td>
 <td class="tg-yw4l">Wild card [question mark]. The ? character serves as a single-character "wild card" for filename expansion in globbing, as well as representing one character in an extended regular expression.</td>
 </tr>
-<tr>
 <td class="tg-yw4l">{ }</td>
 <td class="tg-yw4l">Inline group [curly brackets]. Commands inside the curly braces are treated as if they were one command. It is convenient to use these when Bash syntax requires only one command and a function doesn't feel warranted.</td>
 </tr>
@@ -4073,7 +4077,8 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 </tr>
 <tr>
 <td class="tg-yw4l">[[ ]]</td>
-<td class="tg-yw4l">Test expression [double brackets]. It is more flexible than the single-bracket [ ] test.</td>
+<td class="tg-yw4l">Test expression [double brackets]. It is more flexible than the single-bracket [ ] test.
+</td>
 </tbody>
 </table>
 
