@@ -3633,7 +3633,8 @@ at tomorrow                # Create a task in Vim to execute tomorrow
 
 ```bash
 sudo su                                            # Switch to root user
-sudo foo                                           # Execute command as the root user
+sudo foo                                           # Execute commands(has permission denied) as the root user
+sudo /foo/foo.txt                                  # Open directories and files(is not writable) as the root user
 su username                                        # Switch to a different user
 
 adduser username                                   # To add a new user
@@ -3738,6 +3739,7 @@ tmux ls          # List all sessions
 tmux attach -t 0 # Reattach to a session
 
 screen           # Start a new session (CTRL-a + d to detach)
+screen -S foo    # Start a new named session
 screen -ls       # List all sessions
 screen -R 31166  # Reattach to a session
 
