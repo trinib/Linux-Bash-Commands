@@ -4065,15 +4065,15 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 </tr>
 <tr>
 <td class="tg-yw4l">( )</td>
-<td class="tg-yw4l"><a href="https://www.google.com/search?q=what+is+linux+Subshell+%3F&client=firefox-b-d&biw=1440&bih=660&sxsrf=ALiCzsanH7oWuGhBf-7bIH_SmJhmw9gGxg%3A1667750422612&ei=FtpnY5KDJdeCwbkP3eejiAc&ved=0ahUKEwiS5o289pn7AhVXQTABHd3zCHEQ4dUDCA4&uact=5&oq=what+is+linux+Subshell+%3F&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIECCMQJzoKCAAQRxDWBBCwA0oECE0YAUoECEEYAEoECEYYAFCyBliyBmC7B2gCcAF4AIABcYgBcZIBAzAuMZgBAKABAcgBCMABAQ&sclient=gws-wiz-serp"><b>Subshell</b></a> group [bracket].Commands within are executed in a subshell (a new process) Used much like a sandbox, if a command causes side effects (like changing variables), it will have no effect on the current shell.</td>
+<td class="tg-yw4l"><a href="https://www.google.com/search?q=what+is+linux+Subshell+%3F&client=firefox-b-d&biw=1440&bih=660&sxsrf=ALiCzsanH7oWuGhBf-7bIH_SmJhmw9gGxg%3A1667750422612&ei=FtpnY5KDJdeCwbkP3eejiAc&ved=0ahUKEwiS5o289pn7AhVXQTABHd3zCHEQ4dUDCA4&uact=5&oq=what+is+linux+Subshell+%3F&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIECCMQJzoKCAAQRxDWBBCwA0oECE0YAUoECEEYAEoECEYYAFCyBliyBmC7B2gCcAF4AIABcYgBcZIBAzAuMZgBAKABAcgBCMABAQ&sclient=gws-wiz-serp"><b>Subshell</b></a> group [parentheses]. Commands within are executed in a subshell (a new process) Used much like a sandbox, if a command causes side effects (like changing variables), it will have no effect on the current shell.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">[ ]</td>
-<td class="tg-yw4l">Test expression between [ ]. It is part of the shell builtin test.</td>
+<td class="tg-yw4l">Test expression [brackets]. It is part of the shell builtin test.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">[[ ]]</td>
-<td class="tg-yw4l">Test expression between [[ ]]. It is more flexible than the single-bracket [ ] test.</td>
+<td class="tg-yw4l">Test expression [double brackets]. It is more flexible than the single-bracket [ ] test.</td>
 </tbody>
 </table>
 
