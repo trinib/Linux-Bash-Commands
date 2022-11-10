@@ -4037,9 +4037,6 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 <td class="tg-yw4l">Force redirection (even if the <a href="https://www.google.com/search?q=what+is+noclobber+bash+meaning+%3F&client=firefox-b-d&sxsrf=ALiCzsYjxhOR8rNOMWPfYf5DFKIqA_f7SA%3A1667859549077&ei=XYRpY4uiBMLhxgGuwoP4Cw&ved=0ahUKEwjLxNT_jJ37AhXCsDEKHS7hAL8Q4dUDCA4&uact=5&oq=what+is+noclobber+bash+meaning+%3F&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIHCCMQsAMQJzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwA0oECE0YAUoECEEYAEoECEYYAFAAWABg0gFoAXABeACAAQCIAQCSAQCYAQDIAQnAAQE&sclient=gws-wiz-serp"><b>noclobber</b></a> option is set). This will forcibly overwrite an existing file.
 </tr>
 <tr>
-<td class="tg-yw4l">#</td>
-<td class="tg-yw4l">Comment [number sign]. Lines in files beginning with a # (with the exception of #!) are comments and will not be executed.</td>
-</tr>
 <td class="tg-yw4l">""</td>
 <td class="tg-yw4l">Double quotes protects the text inside them from being split into multiple words or arguments, yet allow substitutions to occur, meaning most other special characters is usually prevented.</td>
 <tr>
@@ -4067,7 +4064,7 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 <td class="tg-yw4l">Wild card [question mark]. The ? character serves as a single-character "wild card" for filename expansion in globbing, as well as representing one character in an extended regular expression.</td>
 </tr>
 <td class="tg-yw4l">{ }</td>
-<td class="tg-yw4l">Inline group [curly brackets]. Commands inside the curly braces are treated as if they were one command. It is convenient to use these when Bash syntax requires only one command and a function doesn't feel warranted.</td>
+<td class="tg-yw4l">Inline group [curly brackets]. Commands inside the curly braces are treated as if they were one command.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">( )</td>
@@ -4079,8 +4076,76 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 </tr>
 <tr>
 <td class="tg-yw4l">[[ ]]</td>
-<td class="tg-yw4l">Test expression [double brackets]. It is more flexible than the single-bracket [ ] test.
+<td class="tg-yw4l">Test/Evaluate [double brackets] a condition expression to determine whether true or false. It is more flexible than the single-bracket [ ] test.
 </td>
+<tr>
+<td class="tg-yw4l">(( ))</td>
+<td class="tg-yw4l">Arithmetic expression [double parentheses]. Characters such as +, -, *, and / are mathematical operators used for calculations.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">#</td>
+<td class="tg-yw4l">Comment [number sign]. Lines in files beginning with a # (with the exception of #!) are comments and will not be executed.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">,, ,</td>
+<td class="tg-yw4l">Lowercase conversion in parameter substitution.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">^, ^^</td>
+<td class="tg-yw4l">Uppercase conversion in parameter substitution.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">;;</td>
+<td class="tg-yw4l">Terminate [double semicolon]. Only used in case constructs to indicate the end of an alternative.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">$*</td>
+<td class="tg-yw4l">All the arguments are seen as a single word.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">$*</td>
+<td class="tg-yw4l">All the arguments that are individually double quoted and seen as a single word.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">!$</td>
+<td class="tg-yw4l">The last argument to the previous command.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">!*</td>
+<td class="tg-yw4l">All the arguments from the previous command.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">$?</td>
+<td class="tg-yw4l">The exit status of the last command executed.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">$#</td>
+<td class="tg-yw4l">The number of arguments supplied to a script.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">$$</td>
+<td class="tg-yw4l">The process number of the current shell. For shell scripts, this is the process ID under which they are executing.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">$!</td>
+<td class="tg-yw4l">The process number of the last background command.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">$-</td>
+<td class="tg-yw4l">Expands to the current option flags as specified upon invocation, by the  set  builtin command, or those set by the shell itself (such as the -i option).
+</td>
+<tr>
+<td class="tg-yw4l">$0</td>
+<td class="tg-yw4l">Used to reference the name of the current shell or current shell script.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">$n</td>
+<td class="tg-yw4l">These variables correspond to the arguments with which a script was invoked. Here n is a positive decimal number corresponding to the position of an argument (the first argument is $1, the second argument is $2, and so on).</td>
+</tr>
+<tr>
+<td class="tg-yw4l">$_</td>
+<td class="tg-yw4l">Special variable set to final argument of previous command executed.</td>
+</tr>
 </tbody>
 </table>
 
