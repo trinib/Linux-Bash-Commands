@@ -4006,26 +4006,32 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 <td class="tg-yw4l">Command separator [semicolon]. Used to separate multiple commands and execute all the ones that is successful.</td>
 </tr>
 <tr>
-<tr>
 <td class="tg-yw4l">&</td>
 <td class="tg-yw4l">Run job in background [and]. A command followed by an & will run in the background.</td>
 </tr>
 <tr>
-<td class="tg-yw4l">#</td>
-<td class="tg-yw4l">Comment [number sign]. Lines in files beginning with a # (with the exception of #!) are comments and will not be executed.</td>
-</tr>
-<tr>
-<tr>
 <td class="tg-yw4l"> >, >>, <</td>
-<td class="tg-yw4l">Redirect a command's output (stdout) or input (stdin) into a file.</td>
+<td class="tg-yw4l">Redirect a command's standard output (stdout) or input (stdin) into a file.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">&>, >&</td>
-<td class="tg-yw4l">Redirects a command's both output (stdout) and error (stderr) into a file.</td>
+<td class="tg-yw4l">Redirects a command's both standard output (stdout) and error (stderr) into a file.</td>
+</tr>
+<tr>
+<td class="tg-yw4l"><&-</td>
+<td class="tg-yw4l">Close standard input (stdin) to prevent showing from a file.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">>&-</td>
+<td class="tg-yw4l">Close standard output (stdout) to prevent showing from a file.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">>|</td>
-<td class="tg-yw4l">Force redirection (even if the <a href="https://www.google.com/search?q=what+is+noclobber+bash+meaning+%3F&client=firefox-b-d&sxsrf=ALiCzsYjxhOR8rNOMWPfYf5DFKIqA_f7SA%3A1667859549077&ei=XYRpY4uiBMLhxgGuwoP4Cw&ved=0ahUKEwjLxNT_jJ37AhXCsDEKHS7hAL8Q4dUDCA4&uact=5&oq=what+is+noclobber+bash+meaning+%3F&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIHCCMQsAMQJzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwA0oECE0YAUoECEEYAEoECEYYAFAAWABg0gFoAXABeACAAQCIAQCSAQCYAQDIAQnAAQE&sclient=gws-wiz-serp"><b>noclobber</b></a> option is set). This will forcibly overwrite an existing file.</td>
+<td class="tg-yw4l">Force redirection (even if the <a href="https://www.google.com/search?q=what+is+noclobber+bash+meaning+%3F&client=firefox-b-d&sxsrf=ALiCzsYjxhOR8rNOMWPfYf5DFKIqA_f7SA%3A1667859549077&ei=XYRpY4uiBMLhxgGuwoP4Cw&ved=0ahUKEwjLxNT_jJ37AhXCsDEKHS7hAL8Q4dUDCA4&uact=5&oq=what+is+noclobber+bash+meaning+%3F&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIHCCMQsAMQJzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwA0oECE0YAUoECEEYAEoECEYYAFAAWABg0gFoAXABeACAAQCIAQCSAQCYAQDIAQnAAQE&sclient=gws-wiz-serp"><b>noclobber</b></a> option is set). This will forcibly overwrite an existing file.
+</tr>
+<tr>
+<td class="tg-yw4l">#</td>
+<td class="tg-yw4l">Comment [number sign]. Lines in files beginning with a # (with the exception of #!) are comments and will not be executed.</td>
 </tr>
 <td class="tg-yw4l">""</td>
 <td class="tg-yw4l">Double quotes protects the text inside them from being split into multiple words or arguments, yet allow substitutions to occur, meaning most other special characters is usually prevented.</td>
@@ -4068,23 +4074,6 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 <tr>
 <td class="tg-yw4l">[[ ]]</td>
 <td class="tg-yw4l">Test expression between [[ ]]. It is more flexible than the single-bracket [ ] test.</td>
-</tr>
-<tr>
-<td class="tg-yw4l">(( ))</td>
-<td class="tg-yw4l">Integer expansion. Expand and evaluate integer expression.</td>
-</tr>
-<tr>
-<td class="tg-yw4l">;;</td>
-<td class="tg-yw4l">Terminator in a case option [double semicolon].</td>
-</tr>
-<tr>
-<td class="tg-yw4l">,, ,</td>
-<td class="tg-yw4l">Lowercase conversion in parameter substitution.</td>
-</tr>
-<tr>
-<td class="tg-yw4l">^, ^^</td>
-<td class="tg-yw4l">Uppercase conversion in parameter substitution.</td>
-</tr>
 </tbody>
 </table>
 
