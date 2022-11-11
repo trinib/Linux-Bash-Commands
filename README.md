@@ -1,11 +1,11 @@
-# Ultimate list of Linux bash commands&nbsp;<a href="https://github.com/sindresorhus/awesome"><img src="https://cdn.rawgit.com/sindresorhus/awesome/d7305f38d29fed78fa85652e3a63e154dd8e8829/media/badge.svg"></a>
-
-_Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&client=firefox-b-d&sxsrf=ALiCzsZmYtgn9ctD5vHAqgVFkM5tZ514pw%3A1667926333803&ei=PYlqY6XIMNmNwbkPqeK3qAo&ved=0ahUKEwjl2ozlhZ_7AhXZRjABHSnxDaUQ4dUDCA4&uact=5&oq=What+is+UNIX+explain%3F&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIFCAAQhgMyBQgAEIYDMgUIABCGAzIFCAAQhgM6CggAEEcQ1gQQsAM6BwgAELADEENKBAhNGAFKBAhBGABKBAhGGABQnAFYnAFgvwNoAXABeACAAa0BiAGtAZIBAzAuMZgBAKABAqABAcgBCsABAQ&sclient=gws-wiz-serp) command-line interface (CLI). Also called the terminal, the command line, or the shell. It's a command language that allows us to work with files on our computers in a way that's far more efficient and powerful than using a GUI (graphical user interface)_
-
 <p align="left">
  <img src="https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=blue" height=21 width=80>
  <img src="https://badges.frapsoft.com/bash/v1/bash.png?v=103)](https://github.com/ellerbrock/open-source-badges">
- <img src="https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white" height=21 width=110>
+ <img src="https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white" height=22 width=110>
+
+# Ultimate list of Linux bash commands
+
+_Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&client=firefox-b-d&sxsrf=ALiCzsZmYtgn9ctD5vHAqgVFkM5tZ514pw%3A1667926333803&ei=PYlqY6XIMNmNwbkPqeK3qAo&ved=0ahUKEwjl2ozlhZ_7AhXZRjABHSnxDaUQ4dUDCA4&uact=5&oq=What+is+UNIX+explain%3F&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIFCAAQhgMyBQgAEIYDMgUIABCGAzIFCAAQhgM6CggAEEcQ1gQQsAM6BwgAELADEENKBAhNGAFKBAhBGABKBAhGGABQnAFYnAFgvwNoAXABeACAAa0BiAGtAZIBAzAuMZgBAKABAqABAcgBCsABAQ&sclient=gws-wiz-serp) command-line interface (CLI). Also called the terminal, the command line, or the shell. It's a command language that allows us to work with files on our computers in a way that's far more efficient and powerful than using a GUI (graphical user interface)._
 
 <details><summary><h3>A to Z command list 📚</h3></summary>
 <p>
@@ -4232,30 +4232,23 @@ cht.sh keyword
 
 ## Extra Resources
 
-[introduction-to-bash-scripting](https://github.com/bobbyiliev/introduction-to-bash-scripting) - Free Introduction to Bash Scripting eBook.<br>
+|  |  |
+| :--: | :--: |
+| [introduction-to-bash-scripting](https://github.com/bobbyiliev/introduction-to-bash-scripting)  | Free Introduction to Bash Scripting eBook|
+| [simple-bash-scripts](https://github.com/ruanyf/simple-bash-scripts)  | A collection of simple Bash scripts |
+| [shell-examples](https://github.com/qjcg/shell-examples)  | Little Bash shell scripting examples |
+| [bash-utils](https://github.com/pirate/bash-utils)| A collection of hand-crafted bash scripts for various common tasks |
+| [Bash-Snippets](https://github.com/alexanderepstein/Bash-Snippets)  | A collection of small bash scripts for heavy terminal users |
+| [awesome-bash](https://github.com/awesome-lists/awesome-bash)  | A curated list of delightful Bash scripts and resources |
+| [awesome-shell](https://github.com/alebcay/awesome-shell)  | A curated list of awesome command-line frameworks, toolkits, guides and gizmos |
+| [awesome-shell](https://github.com/uhub/awesome-shell)  | A curated list of awesome Shell frameworks, libraries and software |
+| [awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps)   | A curated list of command line apps |
+| [cli-apps](https://github.com/toolleeo/cli-apps)  | Awesome Curated list of (mainly) CLI/TUI applications with source data organized into CSV files |
+| [awesome-cli](https://github.com/Kikobeats/awesome-cli) | A curated list of awesome resources for building immersive CLI experiences |
+| [awesome-cli](https://github.com/umutphp/awesome-cli) | A simple command line tool to give you a fancy command line interface to dive into Awesome lists |
+| [terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy)  | A curated list of Terminal frameworks, plugins & resources for CLI lovers |
+| [funny-Linux-Commands](https://github.com/Debargha-Mitra-Roy/Funny-Linux-Commands) | Funny Linux Commands in Ubuntu |
+| [awesome-ttygames](https://github.com/ligurio/awesome-ttygames) | Unix ASCII games |
 
-[awesome-bash](https://github.com/awesome-lists/awesome-bash) - A curated list of delightful Bash scripts and resources.<br>
-
-[simple-bash-scripts](https://github.com/ruanyf/simple-bash-scripts) - A collection of simple Bash scripts.<br>
-
-[Bash-Snippets](https://github.com/alexanderepstein/Bash-Snippets) - A collection of small bash scripts for heavy terminal users.<br>
-
-[awesome-shell](https://github.com/alebcay/awesome-shell) - A curated list of awesome command-line frameworks, toolkits, guides and gizmos.<br>
-
-[awesome-shell](https://github.com/uhub/awesome-shell) - A curated list of awesome Shell frameworks, libraries and software.<br>
-
-[awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) -  A curated list of command line apps.<br>
-
-[cli-apps](https://github.com/toolleeo/cli-apps) - Awesome Curated list of (mainly) CLI/TUI applications with source data organized into CSV files.<br>
-
-[awesome-cli](https://github.com/Kikobeats/awesome-cli) - A curated list of awesome resources for building immersive CLI experiences.<br>
-
-[awesome-cli](https://github.com/umutphp/awesome-cli) - A simple command line tool to give you a fancy command line interface to dive into Awesome lists <br>
-
-[terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy) - A curated list of Terminal frameworks, plugins & resources for CLI lovers<br>
-
-[funny-Linux-Commands](https://github.com/Debargha-Mitra-Roy/Funny-Linux-Commands) - Funny Linux Commands in Ubuntu.<br>
-
-[awesome-ttygames](https://github.com/ligurio/awesome-ttygames) - Unix ASCII games.
-
+---
 
