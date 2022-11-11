@@ -4253,11 +4253,10 @@ cht.sh keyword
 
 ---
 
-## Easily view, navigate, search and manage your command history 
+## Easily view, navigate, search and manage history commands
 
 [htsr](https://github.com/dvorka/hstr)<br>
-![hstrc-v2](https://user-images.githubusercontent.com/18756975/201399517-7481585c-1a9e-4738-a7be-97689e01443c.png)<br>
-
+![hts](https://user-images.githubusercontent.com/18756975/201403803-7f899124-3412-443c-9b6d-e60b8b2ca889.png)<br>
 <i>Install</i>:
 ```bash
 sudo apt install hstr
