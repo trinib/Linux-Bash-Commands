@@ -4234,16 +4234,27 @@ cht.sh keyword
 ## Extra Resources
 
 [introduction-to-bash-scripting](https://github.com/bobbyiliev/introduction-to-bash-scripting) - Free Introduction to Bash Scripting eBook.<br>
+
 [awesome-bash](https://github.com/awesome-lists/awesome-bash) - A curated list of delightful Bash scripts and resources.<br>
+
 [awesome-shell](https://github.com/alebcay/awesome-shell) - A curated list of awesome command-line frameworks, toolkits, guides and gizmos.<br>
+
 [awesome-shell](https://github.com/uhub/awesome-shell) - A curated list of awesome Shell frameworks, libraries and software.<br>
+
 [awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) -  A curated list of command line apps.<br>
+
 [cli-apps](https://github.com/toolleeo/cli-apps) - Awesome Curated list of (mainly) CLI/TUI applications with source data organized into CSV files.<br>
+
 [awesome-cli](https://github.com/Kikobeats/awesome-cli) - A curated list of awesome resources for building immersive CLI experiences.<br>
+
 [awesome-cli](https://github.com/umutphp/awesome-cli) - A simple command line tool to give you a fancy command line interface to dive into Awesome lists <br>
+
 [terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy) - A curated list of Terminal frameworks, plugins & resources for CLI lovers<br>
+
 [simple-bash-scripts](https://github.com/ruanyf/simple-bash-scripts) - A collection of simple Bash scripts.<br>
+
 [funny-Linux-Commands](https://github.com/Debargha-Mitra-Roy/Funny-Linux-Commands) - Funny Linux Commands in Ubuntu.<br>
+
 [awesome-ttygames](https://github.com/ligurio/awesome-ttygames) - Unix ASCII games.
 
 
