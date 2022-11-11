@@ -3986,7 +3986,6 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
  
 <details><summary><h3>Special characters 🔣</h3></summary>
 <p>
- 
 <table class="tg">
 <tbody>
 <tr>
@@ -3999,15 +3998,31 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 </tr>
 <tr>
 <td class="tg-yw4l">-</td>
-<td class="tg-yw4l">Previous directory [dash]. Go back to previous directory.</td>
+<td class="tg-yw4l">Previous directory [hyphen]. Go back to previous directory.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">└─></td>
+<td class="tg-yw4l">Option flag for a command or filter. Prefix for an operator.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">└─></td>
+<td class="tg-yw4l">Arithmetic operator. Minus of arithmetic operations.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">/</td>
-<td class="tg-yw4l">Filename path separator [forward slash]. Separates the components of a filename. It also represents the path to root directory.</td>
+<td class="tg-yw4l">Root directory [forward slash]. The path to root directory location.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">└─></td>
+<td class="tg-yw4l">Filename path separator.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">\</td>
-<td class="tg-yw4l">Escape [backslash]. A quoting mechanism for single characters. It preserves the literal value of the next character that follows, with the exception of newline.</td>
+<td class="tg-yw4l">Escape [backslash]. A quoting mechanism for single characters. It preserves the literal value of the next character that follows, with the exception of newline. </td>
+</tr>
+<tr>
+<td class="tg-yw4l">└─></td>
+<td class="tg-yw4l">Arithmetic operator. Divider of arithmetic operations.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">│</td>
@@ -4056,6 +4071,18 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 <td class="tg-yw4l">"</td>
 <td class="tg-yw4l">Partial quoting [double quotes]. Protects the text inside them from being split into multiple words or arguments, yet allow substitutions to occur, meaning most other special characters is usually prevented.</td>
 <tr>
+<td class="tg-yw4l">.</td>
+<td class="tg-yw4l">Source command [period]. To evaluate commands in the current execution context. This is a bash builtin.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">└─></td>
+<td class="tg-yw4l">"As a component of a filename. When working with filenames, a leading dot is the prefix of a "hidden" file, a file that an ls will not normally show. </td>
+</tr>
+<tr>
+<td class="tg-yw4l">└─></td>
+<td class="tg-yw4l">Character match. When matching characters, as part of a regular expression, a "dot" matches a single character.</td>
+</tr>
+<tr>
 <td class="tg-yw4l">'</td>
 <td class="tg-yw4l">Full quoting [single quotes]. Protects the text inside them so that it has a literal meaning. This is a stronger form of quoting than double quotes.</td>
 </tr>
@@ -4076,12 +4103,24 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 <td class="tg-yw4l">Wild card [asterisk]. The * character serves as a "wild card" for filename expansion in <a href="https://www.google.com/search?q=What+is+globbing+in+shell%3F&client=firefox-b-d&sxsrf=ALiCzsYC9z8Ynyd5KFHYK7jo2SDHxrCuxg%3A1667844117587&ei=FUhpY77DI46ykvQPlPO_8A8&ved=0ahUKEwj-oa3B05z7AhUOmYQIHZT5D_4Q4dUDCA4&uact=5&oq=What+is+globbing+in+shell%3F&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIICAAQFhAeEA8yBQgAEIYDMgUIABCGAzIFCAAQhgMyBQgAEIYDOgQIABBHSgQITRgBSgQIQRgASgQIRhgAUPdAWPdAYJ9DaABwA3gAgAGdAYgBnQGSAQMwLjGYAQCgAQKgAQHIAQjAAQE&sclient=gws-wiz-serp"><b>globbing</b></a>. By itself, it matches every filename in a given directory.
 </td>
 <tr>
+<td class="tg-yw4l">└──></td>
+<td class="tg-yw4l">Arithmetic operator. Multiplier of arithmetic operations.</td>
+</tr>
+<tr>
 <td class="tg-yw4l">?</td>
 <td class="tg-yw4l">Wild card [question mark]. The ? character serves as a single-character "wild card" for filename expansion in globbing, as well as representing one character in an extended regular expression.</td>
 </tr>
 <tr>
+<td class="tg-yw4l">└─></td>
+<td class="tg-yw4l">Test operator. Within certain expressions, the ? indicates a test for a condition.</td>
+</tr>
+<tr>
 <td class="tg-yw4l">{ }</td>
 <td class="tg-yw4l">Inline group [curly brackets]. Commands inside the curly braces are treated as if they were one command.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">└─></td>
+<td class="tg-yw4l">Placeholder for output text.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">( )</td>
@@ -4092,12 +4131,28 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 <td class="tg-yw4l">Test expression [brackets]. It is part of the shell builtin test.</td>
 </tr>
 <tr>
+<td class="tg-yw4l">└─></td>
+<td class="tg-yw4l">Array element. Brackets set off the numbering of each element.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">└─></td>
+<td class="tg-yw4l">Range of characters. As part of a regular expression, brackets delineate a range of characters to match.</td>
+</tr>
+<tr>
 <td class="tg-yw4l">[[ ]]</td>
 <td class="tg-yw4l">Test/Evaluate [double brackets] a condition expression to determine whether true or false. It is more flexible than the single-bracket [ ] test.
 </td>
 <tr>
 <td class="tg-yw4l">(( ))</td>
 <td class="tg-yw4l">Arithmetic expression [double parentheses]. Characters such as +, -, *, and / are mathematical operators used for calculations.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">~+</td>
+<td class="tg-yw4l">Current working directory.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">~-</td>
+<td class="tg-yw4l">Previous working directory.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">:</td>
@@ -4118,6 +4173,14 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 <tr>
 <td class="tg-yw4l">^, ^^</td>
 <td class="tg-yw4l">Uppercase conversion in parameter substitution.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">$</td>
+<td class="tg-yw4l">Variable substitution. A $ prefixing a variable name indicates the value the variable holds</td>
+</tr>
+<tr>
+<td class="tg-yw4l">└─></td>
+<td class="tg-yw4l">End-of-line. In a regular expression, a "$" addresses the end of a line of text.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">$*</td>
@@ -4253,7 +4316,7 @@ cht.sh keyword
 
 ---
 
-## Easily view, navigate, search and manage history commands
+## Easily view, navigate, search :suspect: and manage history commands	
 
 [htsr](https://github.com/dvorka/hstr)<br>
 ![hts](https://user-images.githubusercontent.com/18756975/201403803-7f899124-3412-443c-9b6d-e60b8b2ca889.png)<br>
@@ -4282,7 +4345,7 @@ More options:
   ```
 ---
 
-## Extra Resources
+## Extra Resources :finnadie:
 
 |  |  |
 | :--: | :--: |
