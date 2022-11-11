@@ -3124,6 +3124,7 @@ Credits: <a href="https://fossbytes.com"><b>fossbytes</b></a> & <a href="https:/
 - [Moving Files](#moving-files)
 - [Deleting Files](#deleting-files)
 - [Reading Files](#reading-files)
+- [Sorting Files](#sorting-files)
 - [File Permissions](#file-permissions)
 - [Finding Files](#finding-files)
 - [Find in Files](#find-in-files)
@@ -3289,13 +3290,24 @@ rm -f|--force foo.txt # Delete file, ignore nonexistent files and never prompt
 ## Reading Files
 
 ```bash
-cat foo.txt            # Print all contents
-less foo.txt           # Print some contents at a time (g - go to top of file, SHIFT+g, go to bottom of file, /foo to search for 'foo')
-head foo.txt           # Print top 10 lines of file
-tail foo.txt           # Print bottom 10 lines of file
-tail -f foo.txt        # Print bottom 10 lines of file updating with new data
-open foo.txt           # Open file in the default editor
-wc foo.txt             # List number of lines words and characters in the file
+cat foo.txt              # Print all contents
+less foo.txt             # Print some contents at a time (g - go to top of file, SHIFT+g, go to bottom of file, /foo to search for 'foo')
+head foo.txt             # Print top 10 lines of file
+tail foo.txt             # Print bottom 10 lines of file
+tail -f|--follow foo.txt # Print bottom 10 lines of file updating with new data
+open foo.txt             # Open file in the default editor
+wc foo.txt               # List number of lines words and characters in the file
+```
+[⬆ ʀᴇᴛᴜʀɴ ᴛᴏ ᴄᴏɴᴛᴇɴᴛꜱ](#contents)
+
+## Sorting Files
+
+```bash
+sort foo.txt                                  # Sort file (ascending order) 
+sort -r|--reverse foo.txt                     # Sort file (descending order) 
+sort -n|--numeric-sort foo.txt                # Sort numbers instead of strings 
+sort -t|--field-separator: -k 3n /foo/foo.txt # Sort by the third column of a file
+
 ```
 [⬆ ʀᴇᴛᴜʀɴ ᴛᴏ ᴄᴏɴᴛᴇɴᴛꜱ](#contents)
 
@@ -3396,11 +3408,15 @@ grep -E 'foo|bar' /baz -R                   # Use regular expressions
 ### Replace in Files
 
 ```bash
-sed 's/fox/bear/g' foo.txt               # Replace fox with bear in foo.txt and output to console
-sed 's/fox/bear/gi' foo.txt              # Replace fox (case insensitive) with bear in foo.txt and output to console
-sed 's/red fox/blue bear/g' foo.txt      # Replace red with blue and fox with bear in foo.txt and output to console
-sed 's/fox/bear/g' foo.txt > bar.txt     # Replace fox with bear in foo.txt and save in bar.txt
-sed 's/fox/bear/g' foo.txt -i|--in-place # Replace fox with bear and overwrite foo.txt
+sed 's/fox/bear/g' foo.txt                          # Replace fox with bear in foo.txt and output to console
+sed 's/fox/bear/gi' foo.txt                         # Replace fox (case insensitive) with bear in foo.txt and output to console
+sed 's/red fox/blue bear/g' foo.txt                 # Replace red with blue and fox with bear in foo.txt and output to console
+sed 's/fox/bear/g' foo.txt > bar.txt                # Replace fox with bear in foo.txt and save in bar.txt
+sed -i|--in-place 's/fox/bear/g' foo.txt            # Replace fox with bear and overwrite foo.txt
+sed -i|--in-place '/red fox/i\blue bear' foo.txt    # Insert blue bear before red fox and overwrite foo.txt
+sed -i|--in-place '/red fox/a\blue bear' foo.txt    # Insert blue bear after red fox and overwrite foo.txt
+sed -i|--in-place '10s/find/replace/' foo.txt       # Replace the 10th line of the file 
+sed -i|--in-place '10,20s/find/replace/' foo.txt    # Replace in the file 10-20 lines 
 ```
 [⬆ ʀᴇᴛᴜʀɴ ᴛᴏ ᴄᴏɴᴛᴇɴᴛꜱ](#contents)
 
@@ -3743,6 +3759,7 @@ screen -ls       # List all sessions
 screen -R 31166  # Reattach to a session
 
 exit             # Exit a session
+reset            # Reset the terminal(when binary and the terminal state is messed up)
 ```
 [⬆ ʀᴇᴛᴜʀɴ ᴛᴏ ᴄᴏɴᴛᴇɴᴛꜱ](#contents)
 
@@ -4183,6 +4200,8 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 | Ctrl+s     | Suspend |
 | Ctrl+q     | Resume |
 | Ctrl+d     | Log out from a shell (similar to exit) |
+| Ctrl+/     | Undo changes in command-line|
+ Ctrl+x(twice)| The cursor jumps back and forth between the current position or the beginning of the line |
 |  |  |
 |  |  |
 |  |  |
@@ -4192,8 +4211,11 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 | Alt+t     | Reverses the position of the word the cursor is in with the previous word |
 | Alt+u     | Capitalizes every character from cursor left to right to the end of one word  |
 | Alt+l     | UnCapitalizes every character from cursor left to right to the end of one word |
-| Alt+r     | Reverts any changes to a previously executed command that is edited |
+| Alt+r     | Reverts any changes to a previously executed command that's being edited |
 | Alt+.     | Fetch and paste the last word at end of a command from previous commands |
+
+
+
 
 
 </p>
@@ -4201,7 +4223,7 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 
 ---
 
-###  Online Cheat Sheet :feelsgood: for quick references of commands and codes
+##  Online Cheat Sheet :feelsgood: for quick references of commands and codes
 
 [cheat.sh](https://github.com/chubin/cheat.sh)<br>
 ![image](https://user-images.githubusercontent.com/18756975/200065767-13a6249f-2188-4206-8073-1714be57c408.png)<br>
@@ -4234,7 +4256,8 @@ cht.sh keyword
 ## Easily view, navigate, search and manage your command history 
 
 [htsr](https://github.com/dvorka/hstr)<br>
-![hstrc-v2](https://user-images.githubusercontent.com/18756975/201360495-4636a53d-cbcb-4786-bdb8-a2315214dce3.png)<br>
+![hstrc-v2](https://user-images.githubusercontent.com/18756975/201399517-7481585c-1a9e-4738-a7be-97689e01443c.png)<br>
+
 <i>Install</i>:
 ```bash
 sudo apt install hstr
