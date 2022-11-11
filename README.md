@@ -3633,11 +3633,11 @@ at tomorrow                # Create a task in Vim to execute tomorrow
 ```bash
 sudo su                                            # Switch to root user
 sudo foo                                           # Execute commands(has permission denied) as the root user
-sudo /foo/foo.txt                                  # Open directories and files(is not writable) as the root user
+sudo nano /foo/foo.txt                             # Open directories and files(is not writable) as the root user
 su username                                        # Switch to a different user
 
+passwd                                             # To change the password of a user
 adduser username                                   # To add a new user
-passwd -l|--lock username                          # To change the password of a user
 userdel username                                   # To remove user
 userdel -r|--remove username                       # To remove user with home directory and mail spool
 usermod -a|--append -G|--groups GROUPNAME USERNAME # To add a user to a group
@@ -4228,6 +4228,36 @@ _Run_:
 ```bash
 cht.sh keyword
 ```
+
+---
+
+## Easily view, navigate, search and manage your command history 
+
+[htsr](https://github.com/dvorka/hstr)<br>
+![hstrc-v2](https://user-images.githubusercontent.com/18756975/201360495-4636a53d-cbcb-4786-bdb8-a2315214dce3.png)<br>
+<i>Install</i>:
+```bash
+sudo apt install hstr
+```
+<i>Configure HSTR just by running</i>:
+```bash
+hstr --show-configuration >> ~/.bashrc
+```
+<i>Usage</i>:
+```bash
+hstr keyword
+```
+More options:
+```yml
+  --favorites              -f ... show favorites view
+  --kill-last-command      -k ... delete last command in history
+  --non-interactive        -n ... print filtered history and exit
+  --show-configuration     -s ... show configuration to be added to ~/.bashrc
+  --show-blacklist         -b ... show commands to skip on history indexation
+  --insert-in-terminal=[c] -i ... insert command c in terminal prompt and exit
+  --version                -V ... show version details
+  --help                   -h ... help
+  ```
 ---
 
 ## Extra Resources
