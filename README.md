@@ -4010,7 +4010,7 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 </tr>
 <tr>
 <td class="tg-yw4l">;</td>
-<td class="tg-yw4l">Command separator [semicolon]. Used to separate multiple commands and execute all the ones that is successful.</td>
+<td class="tg-yw4l">Command separator [semicolon]. Used to separate multiple commands and output all successful and failed ones.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">&</td>
@@ -4043,13 +4043,13 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 <td class="tg-yw4l">'</td>
 <td class="tg-yw4l">Full quoting [single quotes]. Protects the text inside them so that it has a literal meaning. This is a stronger form of quoting than double quotes.</td>
 </tr>
+<tr>
+<td class="tg-yw4l">`</td>
+<td class="tg-yw4l">Command substitution [backquotes]. Assign the output of a shell command to a variable.</td>
 </tr>
 <tr>
-<td class="tg-yw4l">" "</td>
-<td class="tg-yw4l">Whitespace. This is a tab, newline, vertical tab, form feed, carriage return, or space. Bash uses whitespace to determine where words begin and end.</td>
-</tr>
-<td class="tg-yw4l">:</td>
-<td class="tg-yw4l">Null command [colon]. This is the shell equivalent of a "NOP" (no op, a do-nothing operation). It may be considered a synonym for the shell builtin true.</td>
+<td class="tg-yw4l">#</td>
+<td class="tg-yw4l">Comment [number sign]. Lines in files beginning with a # (with the exception of #!) are comments and will not be executed.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">!</td>
@@ -4063,6 +4063,7 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 <td class="tg-yw4l">?</td>
 <td class="tg-yw4l">Wild card [question mark]. The ? character serves as a single-character "wild card" for filename expansion in globbing, as well as representing one character in an extended regular expression.</td>
 </tr>
+<tr>
 <td class="tg-yw4l">{ }</td>
 <td class="tg-yw4l">Inline group [curly brackets]. Commands inside the curly braces are treated as if they were one command.</td>
 </tr>
@@ -4083,8 +4084,16 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 <td class="tg-yw4l">Arithmetic expression [double parentheses]. Characters such as +, -, *, and / are mathematical operators used for calculations.</td>
 </tr>
 <tr>
-<td class="tg-yw4l">#</td>
-<td class="tg-yw4l">Comment [number sign]. Lines in files beginning with a # (with the exception of #!) are comments and will not be executed.</td>
+<td class="tg-yw4l">:</td>
+<td class="tg-yw4l">Null command [colon]. This is the shell equivalent of a "NOP" (no op, a do-nothing operation). It may be considered a synonym for the shell builtin true.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">;;</td>
+<td class="tg-yw4l">Terminator [double semicolon]. Only used in case constructs to indicate the end of an alternative.</td>
+</tr>
+<tr>
+<td class="tg-yw4l">" "</td>
+<td class="tg-yw4l">Whitespace. This is a tab, newline, vertical tab, form feed, carriage return, or space. Bash uses whitespace to determine where words begin and end.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">,, ,</td>
@@ -4093,10 +4102,6 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 <tr>
 <td class="tg-yw4l">^, ^^</td>
 <td class="tg-yw4l">Uppercase conversion in parameter substitution.</td>
-</tr>
-<tr>
-<td class="tg-yw4l">;;</td>
-<td class="tg-yw4l">Terminate [double semicolon]. Only used in case constructs to indicate the end of an alternative.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">$*</td>
@@ -4131,6 +4136,10 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 <td class="tg-yw4l">The process number of the last background command.</td>
 </tr>
 <tr>
+<td class="tg-yw4l">$_</td>
+<td class="tg-yw4l">Special variable set to final argument of previous command executed.</td>
+</tr>
+<tr>
 <td class="tg-yw4l">$-</td>
 <td class="tg-yw4l">Expands to the current option flags as specified upon invocation, by the  set  builtin command, or those set by the shell itself (such as the -i option).
 </td>
@@ -4141,10 +4150,6 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 <tr>
 <td class="tg-yw4l">$n</td>
 <td class="tg-yw4l">These variables correspond to the arguments with which a script was invoked. Here n is a positive decimal number corresponding to the position of an argument (the first argument is $1, the second argument is $2, and so on).</td>
-</tr>
-<tr>
-<td class="tg-yw4l">$_</td>
-<td class="tg-yw4l">Special variable set to final argument of previous command executed.</td>
 </tr>
 </tbody>
 </table>
@@ -4225,3 +4230,20 @@ _Run_:
 cht.sh keyword
 ```
 ---
+
+## Extra Resources
+
+[introduction-to-bash-scripting](https://github.com/bobbyiliev/introduction-to-bash-scripting) - Free Introduction to Bash Scripting eBook.<br>
+[awesome-bash](https://github.com/awesome-lists/awesome-bash) - A curated list of delightful Bash scripts and resources.<br>
+[awesome-shell](https://github.com/alebcay/awesome-shell) - A curated list of awesome command-line frameworks, toolkits, guides and gizmos.<br>
+[awesome-shell](https://github.com/uhub/awesome-shell) - A curated list of awesome Shell frameworks, libraries and software.<br>
+[awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) -  A curated list of command line apps.<br>
+[cli-apps](https://github.com/toolleeo/cli-apps) - Awesome Curated list of (mainly) CLI/TUI applications with source data organized into CSV files.<br>
+[awesome-cli](https://github.com/Kikobeats/awesome-cli) - A curated list of awesome resources for building immersive CLI experiences.<br>
+[awesome-cli](https://github.com/umutphp/awesome-cli) - A simple command line tool to give you a fancy command line interface to dive into Awesome lists <br>
+[terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy) - A curated list of Terminal frameworks, plugins & resources for CLI lovers<br>
+[simple-bash-scripts](https://github.com/ruanyf/simple-bash-scripts) - A collection of simple Bash scripts.<br>
+[funny-Linux-Commands](https://github.com/Debargha-Mitra-Roy/Funny-Linux-Commands) - Funny Linux Commands in Ubuntu.<br>
+[awesome-ttygames](https://github.com/ligurio/awesome-ttygames) - Unix ASCII games.
+
+
