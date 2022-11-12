@@ -4343,7 +4343,7 @@ On demand searching🔎:
 
 >**Note** - More info in documentation:
 
->     man hstr
+> man hstr
 
 --- 
 
