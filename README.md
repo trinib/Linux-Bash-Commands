@@ -4316,7 +4316,7 @@ _**Run**_:
 ```bash
 cht.sh keyword
 ```
->**Note** - More info in documentation:
+>**Note** - More info on usage:
 
 >   https://cht.sh/:help
 
@@ -4339,11 +4339,47 @@ hstr --show-configuration >> ~/.bashrc
 hstr keyword
 ```
 On demand searching🔎:
-> Ctrl+R
+`Ctrl+R`
 
->**Note** - More info in documentation:
+>**Note** - More info on usage:
 
 >     man hstr
+#
+### A faster way to move around with [commacd](https://github.com/shyiko/commacd)
+```bash
+curl -sSL https://github.com/shyiko/commacd/raw/v1.0.0/commacd.sh -o ~/.commacd.sh && \
+  echo "source ~/.commacd.sh" >> ~/.bashrc
+```
+
+commacd exports three commands: forward(`,`) │ backward(`,,`) │ backward+forward(`,,,`)
+
+_**Usage**_:
+| Description | commacd | command |
+| :--:| :--: | :-- |
+| Enter directories using| , des | | 
+| abbreviations. | └─>  | cd Desktop |
+
+| Description | commacd | command |
+| :--:| :--: | :-- |
+| Move through multiple directories| , /u/l/ce | | 
+| using abbreviations. | └─>  | cd /usr/local/Cellar |
+
+| Description | commacd | options |
+| :--:| :--: | :-- |
+| Choose directories with names  | , d |  | 
+| starting with same letter. |  0  |  Desktop   |
+| (= multiple choices)       |  1  |  Downloads |
+|  0, 1 or 2               | 2  |   Documents |
+ 
+| Description | commacd | command |
+| :--:| :--: | :-- |
+| Given two directories jdk7 and jdk8 | , ~/d/j*8 | | 
+| on the Desktop, cd into jdk8 without hitting | └─>  | cd ~/Desktop/jdk8   |
+| interactive mode (the one shown above).       |  | |
+
+>**Note** - More info on usage:
+
+>   [shyiko.com/commacd](https://shyiko.com/2014/10/10/commacd/)
 
 --- 
 
