@@ -3684,26 +3684,33 @@ wget -O|--output-document foo.txt https://example.com/file.txt # Output to a fil
 ## Network Troubleshooting
 
 ```bash
-ping example.com            # Send multiple ping requests using the ICMP protocol
-ping -c 10 -i 5 example.com # Make 10 attempts, 5 seconds apart
+ifconfig                     # Display all network card and interface information 
+ifconfig -a                  # Display information of all network cards (including those that are not started at boot) 
+ifconfig eth0                # Display specific device information 
+ifconfig eth0 up             # Turn on the network card
+ifconfig eth0 down           # Turn off the network card
+ifconfig eth0 192.168.120.56 # Configure IP address for network card
 
-ip addr                     # List IP addresses on the system
-ip route show               # Show IP addresses to router
+curl ifconfig.me             # Obtain external IP address
 
-curl ifconfig.me            # Obtain external IP address
+ping example.com             # Send multiple ping requests using the ICMP protocol
+ping -c 10 -i 5 example.com  # Make 10 attempts, 5 seconds apart
 
-netstat -i|--interfaces     # List all network interfaces and in/out usage
-netstat -l|--listening      # List all open ports
+ip addr                      # List IP addresses on the system
+ip route show                # Show IP addresses to router
+ 
+netstat -i|--interfaces      # List all network interfaces and in/out usage
+netstat -l|--listening       # List all open ports
 
-traceroute example.com      # List all servers the network traffic goes through
+traceroute example.com       # List all servers the network traffic goes through
 
 mtr -w|--report-wide example.com                                    # Continually list all servers the network traffic goes through
 mtr -r|--report -w|--report-wide -c|--report-cycles 100 example.com # Output a report that lists network traffic 100 times
 
-nmap 0.0.0.0                # Scan for the 1000 most common open ports on localhost
-nmap 0.0.0.0 -p1-65535      # Scan for open ports on localhost between 1 and 65535
-nmap 192.168.4.3            # Scan for the 1000 most common open ports on a remote IP address
-nmap -sP 192.168.1.1/24     # Discover all machines on the network by ping'ing them
+nmap 0.0.0.0                 # Scan for the 1000 most common open ports on localhost
+nmap 0.0.0.0 -p1-65535       # Scan for open ports on localhost between 1 and 65535
+nmap 192.168.4.3             # Scan for the 1000 most common open ports on a remote IP address
+nmap -sP 192.168.1.1/24      # Discover all machines on the network by ping'ing them
 ```
 [⬆ ʀᴇᴛᴜʀɴ ᴛᴏ ᴄᴏɴᴛᴇɴᴛꜱ](#contents)
 
@@ -4002,7 +4009,7 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 </tr>
 <tr>
 <td class="tg-yw4l">└─></td>
-<td class="tg-yw4l">Option flag for a command or filter. Prefix for an operator.</td>
+<td class="tg-yw4l">Option flag for a command or filter.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">└─></td>
@@ -4300,7 +4307,7 @@ _**Browser**_:
 
 #
 
- #### Offline usage [Install](https://github.com/chubin/cheat.sh#installation) cheat script manually<br>
+ ### Offline usage [Install](https://github.com/chubin/cheat.sh#installation) cheat script manually<br>
 _**Install globally(all users)**_:
 ```bash
 curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht.sh && sudo chmod +x /usr/local/bin/cht.sh
