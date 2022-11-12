@@ -4103,7 +4103,7 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 <td class="tg-yw4l">Wild card [asterisk]. The * character serves as a "wild card" for filename expansion in <a href="https://www.google.com/search?q=What+is+globbing+in+shell%3F&client=firefox-b-d&sxsrf=ALiCzsYC9z8Ynyd5KFHYK7jo2SDHxrCuxg%3A1667844117587&ei=FUhpY77DI46ykvQPlPO_8A8&ved=0ahUKEwj-oa3B05z7AhUOmYQIHZT5D_4Q4dUDCA4&uact=5&oq=What+is+globbing+in+shell%3F&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIICAAQFhAeEA8yBQgAEIYDMgUIABCGAzIFCAAQhgMyBQgAEIYDOgQIABBHSgQITRgBSgQIQRgASgQIRhgAUPdAWPdAYJ9DaABwA3gAgAGdAYgBnQGSAQMwLjGYAQCgAQKgAQHIAQjAAQE&sclient=gws-wiz-serp"><b>globbing</b></a>. By itself, it matches every filename in a given directory.
 </td>
 <tr>
-<td class="tg-yw4l">└──></td>
+<td class="tg-yw4l">└─></td>
 <td class="tg-yw4l">Arithmetic operator. Multiplier of arithmetic operations.</td>
 </tr>
 <tr>
@@ -4241,42 +4241,41 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 
 | Key | Function |
 | :--: | :-- |
-| Ctrl+a     | Moves cursor to beginning of text in line |
-| Ctrl+e     | Moves cursor to end of text in line |
-| Ctrl+b     | Moves cursor backward one character position |
-| Ctrl+f     | Moves cursor forward one character position  |
-| Ctrl+u     | Erase a line of input from cursor right to left |
-| Ctrl+k     | Erase a line of input from cursor left to right |
-| Ctrl+d     | Erase character forward from cursor left to right  |
-| Ctrl+h     | Erase character backward from cursor right to left  |
-| Ctrl+w     | Erase backwards to first non-alphanumeric character or empty space |
-| Ctrl+p     | Fetch previous command from history list  |
-| Ctrl+n     | Fetch next command from history list  |
-| Ctrl+y     | Fetch back command previously erased |
-| Ctrl+t     | Reverses the position of the character the cursor is on with the previous character |
-| Ctrl+r     | Reverse search commands from history list |
-| Ctrl+z     | Pauses a foreground job  |
-| Ctrl+c     | Break/Terminate a foreground job |
-| Ctrl+m     | Clear the current line |
-| Ctrl+o     | Accept the current line for execution and fetch the next command |
-| Ctrl+l     | Clear screen contents (command-line needs to be empty) |
-| Ctrl+s     | Suspend |
-| Ctrl+q     | Resume |
-| Ctrl+d     | Log out from a shell (similar to exit) |
+| Ctrl+A     | Moves cursor to beginning of text in line |
+| Ctrl+E     | Moves cursor to end of text in line |
+| Ctrl+B     | Moves cursor backward one character position |
+| Ctrl+F     | Moves cursor forward one character position  |
+| Ctrl+U     | Erase a line of input from cursor right to left |
+| Ctrl+K     | Erase a line of input from cursor left to right |
+| Ctrl+D     | Erase character forward from cursor left to right  |
+| Ctrl+H     | Erase character backward from cursor right to left  |
+| Ctrl+W     | Erase backwards to first non-alphanumeric character or empty space |
+| Ctrl+P     | Fetch previous command from history list  |
+| Ctrl+N     | Fetch next command from history list  |
+| Ctrl+Y     | Fetch back command previously erased |
+| Ctrl+T     | Reverses the position of the character the cursor is on with the previous character |
+| Ctrl+R     | Reverse search commands from history list |
+| Ctrl+Z     | Pauses a foreground job  |
+| Ctrl+C     | Break/Terminate a foreground job |
+| Ctrl+M     | Clear the current line |
+| Ctrl+O     | Accept the current line for execution and fetch the next command |
+| Ctrl+L     | Clear screen contents (command-line needs to be empty) |
+| Ctrl+S     | Suspend |
+| Ctrl+Q     | Resume |
+| Ctrl+D     | Log out from a shell (similar to exit) |
 | Ctrl+/     | Undo changes in command-line|
- Ctrl+x(twice)| The cursor jumps back and forth between the current position to the beginning of the line |
+ Ctrl+X(twice)| The cursor jumps back and forth between the current position to the beginning of the line |
 |  |  |
 |  |  |
 |  |  |
-| Alt+f     | Moves cursor one word forward in line |
-| Alt+b     | Moves cursor one word backwards in line |
-| Alt+d     | Erase the next word from cursor left to right |
-| Alt+t     | Reverses the position of the word the cursor is in with the previous word |
-| Alt+u     | Capitalizes every character from cursor left to right to the end of one word  |
-| Alt+l     | UnCapitalizes every character from cursor left to right to the end of one word |
-| Alt+r     | Reverts any changes to a previously executed command that's being edited |
+| Alt+F     | Moves cursor one word forward in line |
+| Alt+B     | Moves cursor one word backwards in line |
+| Alt+D     | Erase the next word from cursor left to right |
+| Alt+T     | Reverses the position of the word the cursor is in with the previous word |
+| Alt+U     | Capitalizes every character from cursor left to right to the end of one word  |
+| Alt+L     | UnCapitalizes every character from cursor left to right to the end of one word |
+| Alt+R     | Reverts any changes to a previously executed command that's being edited |
 | Alt+.     | Fetch and paste the last word at end of a command from previous commands |
-
 
 </p>
  </details>
@@ -4287,13 +4286,13 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 
 [cheat.sh](https://github.com/chubin/cheat.sh)<br>
 ![image](https://user-images.githubusercontent.com/18756975/200065767-13a6249f-2188-4206-8073-1714be57c408.png)<br>
-_Terminal_:
+_**Terminal**_:
 ```bash
 curl cht.sh/keyword
 # or
 curl cheat.sh/keyword
 ```
-_Browser_:
+_**Browser**_:
 
 >   [https://cht.sh/](https://cht.sh/)keyword<br>
 >   or<br>
@@ -4302,14 +4301,17 @@ _Browser_:
 #
 
  #### Offline usage [Install](https://github.com/chubin/cheat.sh#installation) cheat script manually<br>
-_Install globally(all users)_:
+_**Install globally(all users)**_:
 ```bash
 curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht.sh && sudo chmod +x /usr/local/bin/cht.sh
 ```
-_Run_:
+_**Run**_:
 ```bash
 cht.sh keyword
 ```
+>**Note** - More info in documentation:
+
+>   https://cht.sh/:help
 
 ---
 
@@ -4317,20 +4319,20 @@ cht.sh keyword
 
 [htsr](https://github.com/dvorka/hstr)<br>
 ![hts](https://user-images.githubusercontent.com/18756975/201403803-7f899124-3412-443c-9b6d-e60b8b2ca889.png)<br>
-<i>Install</i>:
+_**Install**_:
 ```bash
 sudo apt install hstr
 ```
-<i>Configure HSTR just by running</i>:
+_**Configure HSTR just by running**_:
 ```bash
 hstr --show-configuration >> ~/.bashrc
 ```
-<i>Usage</i>:
+**_Usage_**:
 ```bash
 hstr keyword
 ```
-On demand search list:
-> Ctrl+r
+On demand searching🔎:
+> Ctrl+R
 
 >**Note** - More info in documentation:
 
@@ -4359,4 +4361,3 @@ On demand search list:
 | [awesome-ttygames](https://github.com/ligurio/awesome-ttygames) | Unix ASCII games |
 
 ---
-
