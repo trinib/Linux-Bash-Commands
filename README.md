@@ -3,7 +3,7 @@
  <img src="https://badges.frapsoft.com/bash/v1/bash.png?v=103)](https://github.com/ellerbrock/open-source-badges">
  <img src="https://img.shields.io/badge/shell_script-%23121011.svg?style=for-the-badge&logo=gnu-bash&logoColor=white" height=22 width=110>
 
-# Ultimate list of Linux bash commands
+# Ultimate List of Linux bash commands
 
 _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&client=firefox-b-d&sxsrf=ALiCzsZmYtgn9ctD5vHAqgVFkM5tZ514pw%3A1667926333803&ei=PYlqY6XIMNmNwbkPqeK3qAo&ved=0ahUKEwjl2ozlhZ_7AhXZRjABHSnxDaUQ4dUDCA4&uact=5&oq=What+is+UNIX+explain%3F&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIFCAAQhgMyBQgAEIYDMgUIABCGAzIFCAAQhgM6CggAEEcQ1gQQsAM6BwgAELADEENKBAhNGAFKBAhBGABKBAhGGABQnAFYnAFgvwNoAXABeACAAa0BiAGtAZIBAzAuMZgBAKABAqABAcgBCsABAQ&sclient=gws-wiz-serp) command-line interface (CLI). Also called the terminal, the command line, or the shell. It's a command language that allows us to work with files on our computers in a way that's far more efficient and powerful than using a GUI (graphical user interface)._
 
@@ -4245,8 +4245,8 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 | Ctrl+e     | Moves cursor to end of text in line |
 | Ctrl+b     | Moves cursor backward one character position |
 | Ctrl+f     | Moves cursor forward one character position  |
-| Ctrl+u     | Erase a line of input from cursor right to left of line |
-| Ctrl+k     | Erase a line of input from cursor left to right of line |
+| Ctrl+u     | Erase a line of input from cursor right to left |
+| Ctrl+k     | Erase a line of input from cursor left to right |
 | Ctrl+d     | Erase character forward from cursor left to right  |
 | Ctrl+h     | Erase character backward from cursor right to left  |
 | Ctrl+w     | Erase backwards to first non-alphanumeric character or empty space |
@@ -4264,21 +4264,18 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 | Ctrl+q     | Resume |
 | Ctrl+d     | Log out from a shell (similar to exit) |
 | Ctrl+/     | Undo changes in command-line|
- Ctrl+x(twice)| The cursor jumps back and forth between the current position or the beginning of the line |
+ Ctrl+x(twice)| The cursor jumps back and forth between the current position to the beginning of the line |
 |  |  |
 |  |  |
 |  |  |
-| Alt+b     | Moves cursor one word backwards |
-| Alt+f     | Moves cursor one word forward |
-| Alt+d     | Erase the next word from cursor left to right  |
+| Alt+f     | Moves cursor one word forward in line |
+| Alt+b     | Moves cursor one word backwards in line |
+| Alt+d     | Erase the next word from cursor left to right |
 | Alt+t     | Reverses the position of the word the cursor is in with the previous word |
 | Alt+u     | Capitalizes every character from cursor left to right to the end of one word  |
 | Alt+l     | UnCapitalizes every character from cursor left to right to the end of one word |
 | Alt+r     | Reverts any changes to a previously executed command that's being edited |
 | Alt+.     | Fetch and paste the last word at end of a command from previous commands |
-
-
-
 
 
 </p>
@@ -4332,18 +4329,14 @@ hstr --show-configuration >> ~/.bashrc
 ```bash
 hstr keyword
 ```
-More options:
-```yml
-  --favorites              -f ... show favorites view
-  --kill-last-command      -k ... delete last command in history
-  --non-interactive        -n ... print filtered history and exit
-  --show-configuration     -s ... show configuration to be added to ~/.bashrc
-  --show-blacklist         -b ... show commands to skip on history indexation
-  --insert-in-terminal=[c] -i ... insert command c in terminal prompt and exit
-  --version                -V ... show version details
-  --help                   -h ... help
-  ```
----
+On demand search list:
+> Ctrl+r
+
+>**Note** - More info in documentation:
+
+>     man hstr
+
+--- 
 
 ## Extra Resources :finnadie:
 
