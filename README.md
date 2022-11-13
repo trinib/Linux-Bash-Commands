@@ -3109,7 +3109,7 @@ Credits: <a href="https://fossbytes.com"><b>fossbytes</b></a> & <a href="https:/
 <details><summary><h3>Quick cheat sheet 📝</h3></summary>
 <p>
   
->**Note**<br>
+>**Warning**<br>
 >  Examples like `-a|--all` option flags means, single `-` used for _short_ option(-a) **or**|  double `--` used for _long_ option(--all). Both was added for educational purpose.
 
 ### Contents
@@ -3993,6 +3993,10 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
  
 <details><summary><h3>Special characters 🔣</h3></summary>
 <p>
+
+> **Note** <br>
+> └─> = or
+
 <table class="tg">
 <tbody>
 <tr>
@@ -4032,7 +4036,7 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 <td class="tg-yw4l">Arithmetic operator. Divider of arithmetic operations.</td>
 </tr>
 <tr>
-<td class="tg-yw4l">│</td>
+<td class="tg-yw4l">|</td>
 <td class="tg-yw4l">Pipe. This is a method of chaining commands together. Connects the output (stdout) of command1 to the input (stdin) of command2. Each command reads the previous command’s output.</td>
 </tr>
 <tr>
@@ -4289,17 +4293,17 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 
 ---
 
-##  Online Cheat Sheet :feelsgood: for quick references of commands and codes
+<details><summary><h3>Online Cheat Sheet for quick references of commands and codes <img src="https://user-images.githubusercontent.com/18756975/201507134-d2f5d9fc-0521-4e65-aba2-f5c7561939f0.png" width=20px height=20px></h3></summary>
 
 [cheat.sh](https://github.com/chubin/cheat.sh)<br>
 ![image](https://user-images.githubusercontent.com/18756975/200065767-13a6249f-2188-4206-8073-1714be57c408.png)<br>
-_**Terminal**_:
+_**Terminal**_ :
 ```bash
 curl cht.sh/keyword
 # or
 curl cheat.sh/keyword
 ```
-_**Browser**_:
+_**Browser**_ :
 
 >   [https://cht.sh/](https://cht.sh/)keyword<br>
 >   or<br>
@@ -4308,44 +4312,104 @@ _**Browser**_:
 #
 
  ### Offline usage [Install](https://github.com/chubin/cheat.sh#installation) cheat script manually<br>
-_**Install globally(all users)**_:
+_**Install globally(all users)**_ :
 ```bash
 curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht.sh && sudo chmod +x /usr/local/bin/cht.sh
 ```
-_**Run**_:
+_**Run**_ :
 ```bash
 cht.sh keyword
 ```
->**Note** - More info on usage:
+>**Note** - More info on usage :
 
 >   https://cht.sh/:help
 
+</p>
+ </details>
+
 ---
 
-## Easily view, navigate, search :suspect: and manage history commands	
+### The most commonly used commands when navigating are `history`, `find`, `cd`. Here are some examples of simple alternative tools that does a better job 
+
+<details><summary><h3>Easily view, navigate, search history commands <img src="https://user-images.githubusercontent.com/18756975/201506874-0dd9a164-0b81-45fe-9c91-63122dcec9b8.PNG" width=20px height=20px></h3></summary>
 
 [htsr](https://github.com/dvorka/hstr)<br>
 ![hts](https://user-images.githubusercontent.com/18756975/201403803-7f899124-3412-443c-9b6d-e60b8b2ca889.png)<br>
-_**Install**_:
+_**Install**_ :
 ```bash
 sudo apt install hstr
 ```
-_**Configure HSTR just by running**_:
+_**Configure HSTR just by running**_ :
 ```bash
 hstr --show-configuration >> ~/.bashrc
 ```
-**_Usage_**:
+**_Usage_** :
 ```bash
 hstr keyword
 ```
-On demand searching🔎:
+Interactive searching🔎 :
 `Ctrl+R`
 
->**Note** - More info on usage:
+>**Note** - More info on usage :
 
 >     man hstr
 #
-### A faster way to move around with [commacd](https://github.com/shyiko/commacd)
+
+</p>
+ </details>
+
+
+<details><summary><h3>A simple and userfriendly way to find files <img src="https://user-images.githubusercontent.com/18756975/201507256-a36e655d-66b0-4851-a035-6c87b10d7f1e.PNG" width=16px height=20px></h3></summary>
+
+[fd](https://github.com/sharkdp/fd)<br>
+<img src="https://user-images.githubusercontent.com/18756975/201507691-6dce9975-1abd-4fac-b347-f8f6ba2654e6.svg" width=400px height=300px>
+
+_**Install**_ :
+```bash
+sudo apt-get install fd-find
+```
+_**Add binary link**_<i>(set correct bin directory location if error)</i> :
+```bash
+$(which fdfind) ~/.local/bin/fd
+```
+
+_**Usage**_ :
+
+<table class="tg">
+<tbody>
+<tr>
+<th align=center class="tg-yw4l">Char.</th>
+<th class="tg-yw4l">Description</th>
+</tr>
+<tr>
+<td align=center class="tg-yw4l">fd foo</td>
+<td class="tg-yw4l">Search system for everything of the name foo.</td>
+</tr>
+<tr>
+<td align=center class="tg-yw4l">fd -g|--glob foo.txt</td>
+<td class="tg-yw4l">Search for particular file name.</td>
+</tr>
+<tr>
+<td align=center class="tg-yw4l">fd -e|--extension txt</td>
+<td class="tg-yw4l">Search for a particular file extension.</td>
+</tr>
+<tr>
+<td align=center class="tg-yw4l">fd -H|--hidden</td>
+<td class="tg-yw4l">Search for hidden and ignored files.</td>
+</tr>
+</tbody>
+</table>
+
+>**Note** - More info on usage :
+
+>     man fd</p>
+#
+
+ </details>
+
+<details><summary><h3>A faster way to move around directories <img src="https://user-images.githubusercontent.com/18756975/201506739-b30571af-0223-4413-86a6-c6fb6a887ce3.png" width=15px height=20px></h3></summary>
+
+[commacd](https://github.com/shyiko/commacd)
 ```bash
 curl -sSL https://github.com/shyiko/commacd/raw/v1.0.0/commacd.sh -o ~/.commacd.sh && \
   echo "source ~/.commacd.sh" >> ~/.bashrc
@@ -4353,7 +4417,7 @@ curl -sSL https://github.com/shyiko/commacd/raw/v1.0.0/commacd.sh -o ~/.commacd.
 
 commacd exports three commands: forward(`,`) │ backward(`,,`) │ backward+forward(`,,,`)
 
-_**Usage**_:
+_**Usage**_ :
 | Description | commacd | command |
 | :--:| :--: | :-- |
 | Enter directories using| , des | | 
@@ -4377,13 +4441,20 @@ _**Usage**_:
 | on the Desktop, cd into jdk8 without hitting | └─>  | cd ~/Desktop/jdk8   |
 | interactive mode (the one shown above).       |  | |
 
->**Note** - More info on usage:
+>**Note** - More info on usage :
 
 >   [shyiko.com/commacd](https://shyiko.com/2014/10/10/commacd/)
 
---- 
+#
 
-## More bash resources :finnadie:
+</p>
+ </details>
+ 
+_There are many more alternative tools available that may fit your needs_
+
+---
+
+<details><summary><h3>More bash resources <img src="https://user-images.githubusercontent.com/18756975/201534292-3b617041-77a8-4e2f-8683-641d0b8d7f57.PNG" width=15px height=20px> </h3></summary>
 
 |  |  |
 | :--: | :--: |
@@ -4403,4 +4474,7 @@ _**Usage**_:
 | [funny-Linux-Commands](https://github.com/Debargha-Mitra-Roy/Funny-Linux-Commands) | Funny Linux Commands in Ubuntu |
 | [awesome-ttygames](https://github.com/ligurio/awesome-ttygames) | Unix ASCII games |
 
+</p>
+ </details>
+ 
 ---
