@@ -3129,6 +3129,7 @@ Credits: <a href="https://fossbytes.com"><b>fossbytes</b></a> & <a href="https:/
 - [Finding Files](#finding-files)
 - [Find in Files](#find-in-files)
 - [Replace in Files](#replace-in-files)
+- [File Editor](#file-editor)
 - [Symbolic Links](#symbolic-links)
 - [Compressing Files](#compressing-files)
 - [Decompressing Files](#decompressing-files)
@@ -3419,6 +3420,19 @@ sed -i|--in-place '10s/find/replace/' foo.txt       # Replace the 10th line of t
 sed -i|--in-place '10,20s/find/replace/' foo.txt    # Replace in the file 10-20 lines 
 ```
 [⬆ ʀᴇᴛᴜʀɴ ᴛᴏ ᴄᴏɴᴛᴇɴᴛꜱ](#contents)
+ 
+### File Editor
+ 
+ ```bash
+nano                              # Open a new file in nano
+nano foo.txt                      # Open a specific file
+nano -m|--mouse foo.txt           # Enable the use of the mouse
+nano -l|--linenumbers foo.txt     # Show line numbers in front of the text
+nano +line,10 foo.txt             # Open file positioning the cursor at the specified line and column
+nano -B|--backup foo.txt          # Create a backup file (`foo~`) when saving edits
+```
+ 
+[⬆ ʀᴇᴛᴜʀɴ ᴛᴏ ᴄᴏɴᴛᴇɴᴛꜱ](#contents)
 
 ## Symbolic Links
 
@@ -3623,7 +3637,7 @@ Minute, Hour, Day of month, Month, Day of the week
 
 ```bash
 crontab -l                 # List cron tab
-crontab -e                 # Edit cron tab in Vim
+crontab -e                 # Edit cron tab in a file editor
 crontab /path/crontab      # Load cron tab from a file
 crontab -l > /path/crontab # Save cron tab to a file
 
@@ -3638,9 +3652,9 @@ crontab -l > /path/crontab # Save cron tab to a file
 at -l                      # List scheduled tasks
 at -c 1                    # Show task with ID 1
 at -r 1                    # Remove task with ID 1
-at now + 2 minutes         # Create a task in Vim to execute in 2 minutes
-at 12:34 PM next month     # Create a task in Vim to execute at 12:34 PM next month
-at tomorrow                # Create a task in Vim to execute tomorrow
+at now + 2 minutes         # Create a task in a file editor to execute in 2 minutes
+at 12:34 PM next month     # Create a task in a file editor to execute at 12:34 PM next month
+at tomorrow                # Create a task in a file editor to execute tomorrow
 ```
 [⬆ ʀᴇᴛᴜʀɴ ᴛᴏ ᴄᴏɴᴛᴇɴᴛꜱ](#contents)
 
@@ -4329,7 +4343,7 @@ cht.sh keyword
 
 ---
 
-### The most commonly used commands when navigating are `history`, `find`, `cd`. Here are some examples of simple alternative tools that does a better job 
+<i>The most commonly used commands when navigating are `history`, `find`, `cd`. Here are some examples of simple alternative tools that does a better job.</i>
 
 <details><summary><h3>Easily view, navigate, search history commands <img src="https://user-images.githubusercontent.com/18756975/201506874-0dd9a164-0b81-45fe-9c91-63122dcec9b8.PNG" width=20px height=20px></h3></summary>
 
@@ -4432,8 +4446,8 @@ _**Usage**_ :
 | :--:| :--: | :-- |
 | Choose directories with names  | , d |  | 
 | starting with same letter. |  0  |  Desktop   |
-| (= multiple choices)       |  1  |  Downloads |
-|  0, 1 or 2               | 2  |   Documents |
+| (= multiple choices)       |  1  | Documents |
+|  0, 1 or 2               | 2  | Downloads    |
  
 | Description | commacd | command |
 | :--:| :--: | :-- |
