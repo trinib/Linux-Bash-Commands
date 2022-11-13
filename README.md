@@ -4302,6 +4302,43 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 | Alt+R     | Reverts any changes to a previously executed command that's being edited |
 | Alt+.     | Fetch and paste the last word at end of a command from previous commands |
 
+### Nano 
+
+| Key | Function |
+| :--: | :-- |
+| CTRL + Y     | 	Scrolls page down |
+| CTRL + V     | 	Scrolls page up|
+| Alt+\    | Got to beginning of file |
+| Alt+/    | Got to end of file |
+| Ctrl+H    | 	Delete character before cursor |
+| Ctrl+D   | Erase character under cursor |
+| Alt+Backspace    | 	Erase word to the left |
+| Ctrl+Del    |Erase word to the right |
+| Alt+Del    | 	Erase current line |
+| Alt+^     | Copy selected text |
+| CTRL + U     | 	To paste the text from the cut buffer (similar to clipboard) into the selected line. |
+| CTRL + K     | It cuts the entire selected line to the cut buffer. |
+| ALT + A     | To select text. You can combine this command with CTRL + K to cut a specific part of the text to the cut buffer.  |
+| Alt+U   | Undo last action  |
+| Alt+E    | Redo last undone action |
+| Ctrl+Q      | Start backward search. Press Ctrl+Q to search for the same phrase again |
+| Ctrl+W     | Start forward search. Press ALT + W to search for the same phrase again |
+| Ctrl+\    | Replaces string or a regular expression  |
+| Alt+3    | 	Comment/uncomment line/region |
+| CTRL + R    | Opens a file and inserts it at the current cursor position |
+| Ctrl-O    | Write changes to a file ("Save as") |
+| Ctrl-S    | Save current file |
+| CTRL + X    | To exit Nano text editor. It prompts a save request if you made any changes to the file  |
+| CTRL + G     | A Help window will pop out and show you all the available commands |
+
+
+
+
+
+
+
+
+
 </p>
  </details>
 
@@ -4397,7 +4434,7 @@ _**Usage**_ :
 </tr>
 <tr>
 <td align=center class="tg-yw4l">fd foo</td>
-<td class="tg-yw4l">Search system for everything of the name foo.</td>
+<td class="tg-yw4l">Search system for everything with the name foo in it.</td>
 </tr>
 <tr>
 <td align=center class="tg-yw4l">fd -g|--glob foo.txt</td>
@@ -4408,7 +4445,7 @@ _**Usage**_ :
 <td class="tg-yw4l">Search for a particular file extension.</td>
 </tr>
 <tr>
-<td align=center class="tg-yw4l">fd -H|--hidden</td>
+<td align=center class="tg-yw4l">fd -H|--hidden foo</td>
 <td class="tg-yw4l">Search for hidden and ignored files.</td>
 </tr>
 </tbody>
