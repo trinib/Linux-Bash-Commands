@@ -4290,9 +4290,6 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 | Ctrl+D     | Log out from a shell (similar to exit) |
 | Ctrl+/     | Undo changes in command-line|
  Ctrl+X(twice)| The cursor jumps back and forth between the current position to the beginning of the line |
-|  |  |
-|  |  |
-|  |  |
 | Alt+F     | Moves cursor one word forward in line |
 | Alt+B     | Moves cursor one word backwards in line |
 | Alt+D     | Erase the next word from cursor left to right |
@@ -4306,8 +4303,8 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 
 | Key | Function |
 | :--: | :-- |
-| CTRL+Y     | 	Scrolls page down |
-| CTRL+V     | 	Scrolls page up|
+| Ctrl+Y     | 	Scrolls page down |
+| Ctrl+V     | 	Scrolls page up|
 | Alt+\    | Got to beginning of file |
 | Alt+/    | Got to end of file |
 | Ctrl+H    | 	Delete character before cursor |
@@ -4316,20 +4313,20 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 | Ctrl+Del    |Erase word to the right |
 | Alt+Del    | 	Erase current line |
 | Alt+^     | Copy selected text |
-| CTRL+U     | 	To paste the text from the cut buffer (similar to clipboard) into the selected line. |
-| CTRL+K     | It cuts the entire selected line to the cut buffer. |
-| ALT+A     | To select text. You can combine this command with CTRL + K to cut a specific part of the text to the cut buffer.  |
+| Ctrl+U     | 	To paste the text from the cut buffer (similar to clipboard) into the selected line. |
+| Ctrl+K     | It cuts the entire selected line to the cut buffer. |
+| Alt+A     | To select text. You can combine this command with CTRL + K to cut a specific part of the text to the cut buffer.  |
 | Alt+U   | Undo last action  |
 | Alt+E    | Redo last undone action |
 | Ctrl+Q      | Start backward search. Press Ctrl+Q to search for the same phrase again |
 | Ctrl+W     | Start forward search. Press ALT + W to search for the same phrase again |
 | Ctrl+\    | Replaces string or a regular expression  |
 | Alt+3    | 	Comment/uncomment line/region |
-| CTRL+R    | Opens a file and inserts it at the current cursor position |
+| Ctrl+R    | Opens a file and inserts it at the current cursor position |
 | Ctrl+O    | Write changes to a file ("Save as") |
 | Ctrl+S    | Save current file |
-| CTRL+X    | To exit Nano text editor. It prompts a save request if you made any changes to the file  |
-| CTRL+G     | A Help window will pop out and show you all the available commands |
+| Ctrl+X    | To exit Nano text editor. It prompts a save request if you made any changes to the file  |
+| Ctrl+G     | A Help window will pop out and show you all the available commands |
 
 </p>
  </details>
