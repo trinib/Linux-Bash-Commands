@@ -4445,7 +4445,7 @@ _**Usage**_ :
 
 >**Note** - More info on usage :
 
->     man fd</p>
+>     man fd
 #
 
  </details>
@@ -4453,6 +4453,8 @@ _**Usage**_ :
 <details><summary><h3>A faster way to move around directories <img src="https://user-images.githubusercontent.com/18756975/201506739-b30571af-0223-4413-86a6-c6fb6a887ce3.png" width=15px height=20px></h3></summary>
 
 [commacd](https://github.com/shyiko/commacd)
+
+_**Install**_ :
 ```bash
 curl -sSL https://github.com/shyiko/commacd/raw/v1.0.0/commacd.sh -o ~/.commacd.sh && \
   echo "source ~/.commacd.sh" >> ~/.bashrc
@@ -4483,6 +4485,8 @@ _**Usage**_ :
 | Given two directories jdk7 and jdk8 | , ~/d/j*8 | | 
 | on the Desktop, cd into jdk8 without hitting | └─>  | cd ~/Desktop/jdk8   |
 | interactive mode (the one shown above).       |  | |
+
+Tab = Autocomplete
 
 >**Note** - More info on usage :
 
