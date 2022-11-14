@@ -4410,7 +4410,7 @@ sudo apt-get install fd-find
 ```
 _**Add binary link**_<i>(set correct bin directory location if error)</i> :
 ```bash
-$(which fdfind) ~/.local/bin/fd
+ln -s $(which fdfind) ~/.local/bin/fd
 ```
 
 _**Usage**_ :
