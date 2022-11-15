@@ -4403,19 +4403,24 @@ Interactive searching🔎 :
 
 <details><summary><h3>A simple and userfriendly way to find files <img src="https://user-images.githubusercontent.com/18756975/201507256-a36e655d-66b0-4851-a035-6c87b10d7f1e.PNG" width=16px height=20px></h3></summary>
 
-[fd](https://github.com/sharkdp/fd)<br>
-<img src="https://user-images.githubusercontent.com/18756975/201507691-6dce9975-1abd-4fac-b347-f8f6ba2654e6.svg" width=400px height=300px>
+<p align="center">
+<a href="https://github.com/sharkdp/fd"><b>fd</b></a> and <a href="https://github.com/junegunn/fzf"><b>fzf</b></a><br>
+<img src="https://user-images.githubusercontent.com/18756975/201507691-6dce9975-1abd-4fac-b347-f8f6ba2654e6.svg" width=400px height=300px><img src="https://user-images.githubusercontent.com/18756975/202026845-bdb69d8e-0500-4748-8cd6-bc0ba4d019a7.png" width=400px height=300px>
+
 
 _**Install**_ :
 ```bash
-sudo apt-get install fd-find -y
+sudo apt-get install fd-find -y && sudo apt-get install fzf -y  
 ```
+
 _**Add binary link**_<i>(set correct bin directory location if error)</i> :
 ```bash
 ln -s $(which fdfind) ~/.local/bin/fd
 ```
-> **Note** - Other installation info - [github.com/sharkdp/fd#installation](https://github.com/sharkdp/fd#installation)
-
+_Restart terminal_
+> **Note** - Other installation info : <br>
+[github.com/sharkdp/fd#installation](https://github.com/sharkdp/fd#installation)<br>
+[github.com/junegunn/fzf#installation)](https://github.com/junegunn/fzf#installation)
 
 _**Usage**_ :
 
@@ -4472,9 +4477,14 @@ _**Usage**_ :
 </tbody>
 </table>
 
+fzf interactive searching🔎 :
+`Ctrl+T`
+
 >**Note** - More info on usage :
 
 >     man fd
+
+>     man fzf
 #
 
 </p>
