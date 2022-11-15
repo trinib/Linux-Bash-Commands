@@ -4381,8 +4381,10 @@ cht.sh keyword
 ![hts](https://user-images.githubusercontent.com/18756975/201403803-7f899124-3412-443c-9b6d-e60b8b2ca889.png)<br>
 _**Install**_ :
 ```bash
-sudo add-apt-repository ppa:ultradvorka/ppa && sudo apt-get update && sudo apt-get install hstr && hstr --show-configuration >> ~/.bashrc && . ~/.bashrc
+sudo apt-get install hstr && hstr --show-configuration >> ~/.bashrc
 ```
+> **Note** - Other installation info - [github.com/dvorka/hstr/blob/master/INSTALLATION.md](https://github.com/dvorka/hstr/blob/master/INSTALLATION.md#ubuntu)
+
 **_Usage_** :
 ```bash
 hstr keyword
@@ -4412,6 +4414,8 @@ _**Add binary link**_<i>(set correct bin directory location if error)</i> :
 ```bash
 ln -s $(which fdfind) ~/.local/bin/fd
 ```
+> **Note** - Other installation info - [github.com/sharkdp/fd#installation](https://github.com/sharkdp/fd#installation)
+
 
 _**Usage**_ :
 
@@ -4430,16 +4434,8 @@ _**Usage**_ :
 <td class="tg-yw4l">Search in "FOO2" directory, the string pattern name "foo", in parent|sub directories and files.</td>
 </tr>
 <tr>
-<td align=left class="tg-yw4l">fd -g|--glob foo</td>
-<td class="tg-yw4l">Search in current directory, the glob pattern name matching "foo", in parent|sub directories and files.</td>
-</tr>
- <tr>
 <td align=left class="tg-yw4l">fd -g|--glob foo /FOO2</td>
-<td class="tg-yw4l">Search in "FOO2" directory, the glob pattern name matching "foo", in parent|sub directories and files.</td>
-</tr>
- <tr>
-<td align=left class="tg-yw4l">fd foo /FOO2</td>
-<td class="tg-yw4l">Search in the directory "FOO2", the string pattern name "foo", in parent|sub directories and files.</td>
+<td class="tg-yw4l">Search in "FOO2" directory, the <a href="https://www.google.com/search?q=What+is+glob+used+for+%3F&client=firefox-b-d&sxsrf=ALiCzsZ01R6o0gluLQgsslLDYABmC3jhcQ%3A1668511191028&ei=13VzY4KrAa3m5NoPgrCxwAw&ved=0ahUKEwjC8uDGiLD7AhUtM1kFHQJYDMgQ4dUDCA4&uact=5&oq=What+is+glob+used+for+%3F&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIHCCMQsAMQJzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwA0oECE0YAUoECEEYAEoECEYYAFAAWABgwgFoAXABeACAAQCIAQCSAQCYAQDIAQnAAQE&sclient=gws-wiz-serp"><b>glob</b></a> pattern name <i>matching</i> "foo", in parent|sub directories and files.</td>
 </tr>
  <tr>
 <td align=left class="tg-yw4l">fd /foo -p|--path /FOO2</td>
