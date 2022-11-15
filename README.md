@@ -3754,13 +3754,17 @@ lshw                   # List all hardware
 ## System Information
 
 ```bash
-uname -s               # Print kernel name
-uname -r               # Print kernel release
-uname -m               # Print Architecture
-uname -o               # Print Operating System
+uname -s                  # Print kernel name
+uname -r                  # Print kernel release
+uname -m                  # Print Architecture
+uname -o                  # Print Operating System
+uname -a                  # Print all Systen info  
 
-cat /proc/cpuinfo      # Show cpu info
-cat /proc/meminfo      # Show memory info
+lsb_release -a            # Print distribution-specific information
+dpkg --print-architecture # Print-architecture by name
+ 
+cat /proc/cpuinfo         # Show cpu info
+cat /proc/meminfo         # Show memory info
 
 ```
 [⬆ ʀᴇᴛᴜʀɴ ᴛᴏ ᴄᴏɴᴛᴇɴᴛꜱ](#contents)
@@ -4377,11 +4381,7 @@ cht.sh keyword
 ![hts](https://user-images.githubusercontent.com/18756975/201403803-7f899124-3412-443c-9b6d-e60b8b2ca889.png)<br>
 _**Install**_ :
 ```bash
-sudo apt install hstr
-```
-_**Configure HSTR just by running**_ :
-```bash
-hstr --show-configuration >> ~/.bashrc
+sudo add-apt-repository ppa:ultradvorka/ppa && sudo apt-get update && sudo apt-get install hstr && hstr --show-configuration >> ~/.bashrc && . ~/.bashrc
 ```
 **_Usage_** :
 ```bash
@@ -4406,7 +4406,7 @@ Interactive searching🔎 :
 
 _**Install**_ :
 ```bash
-sudo apt-get install fd-find
+sudo apt-get install fd-find -y
 ```
 _**Add binary link**_<i>(set correct bin directory location if error)</i> :
 ```bash
@@ -4418,23 +4418,59 @@ _**Usage**_ :
 <table class="tg">
 <tbody>
 <tr>
-<th align=center class="tg-yw4l">Char.</th>
+<th align=left class="tg-yw4l">Command</th>
 <th class="tg-yw4l">Description</th>
 </tr>
 <tr>
-<td align=center class="tg-yw4l">fd foo</td>
-<td class="tg-yw4l">Search system for everything with the name foo in it.</td>
+<td align=left class="tg-yw4l">fd foo</td>
+<td class="tg-yw4l">Search in current directory, the string pattern name "foo" of all parent & subdirectories and files.</td>
+</tr>
+ <tr>
+<td align=left class="tg-yw4l">fd foo /FOO2</td>
+<td class="tg-yw4l">Search in "FOO2" directory, the string pattern name "foo" of all parent & subdirectories and files.</td>
 </tr>
 <tr>
-<td align=center class="tg-yw4l">fd -g|--glob foo.txt</td>
-<td class="tg-yw4l">Search for particular file name.</td>
+<td align=left class="tg-yw4l">fd -g|--glob foo</td>
+<td class="tg-yw4l">Search in current directory, the glob pattern name exactly "foo" of all parent & subdirectories and files.</td>
+</tr>
+ <tr>
+<td align=left class="tg-yw4l">fd -g|--glob foo /FOO2</td>
+<td class="tg-yw4l">Search in "FOO2" directory, the glob pattern name exactly "foo" of all parent & subdirectories and files.</td>
+</tr>
+ <tr>
+<td align=left class="tg-yw4l">fd foo /FOO2</td>
+<td class="tg-yw4l">Search in the directory "FOO2", the string pattern name "foo" of all parent & subdirectories and files.</td>
+</tr>
+ <tr>
+<td align=left class="tg-yw4l">fd /foo -p|--path /FOO2</td>
+<td class="tg-yw4l">Search in the directory "FOO2" and view the files and directory paths and its contents that is or starts with the string pattern name "foo".</td>
+</tr>
+ <tr>
+<td align=left class="tg-yw4l">fd foo/ -p|--path /FOO2</td>
+<td class="tg-yw4l">Search in the directory "FOO2" and view the directory paths and its contents that is or ends with the string pattern name "foo".</td>
 </tr>
 <tr>
-<td align=center class="tg-yw4l">fd -e|--extension txt</td>
+<td align=left class="tg-yw4l">fd -t|--type -d foo</td>
+<td class="tg-yw4l">Search for directory type only.</td>
+</tr>
+ <tr>
+<td align=left class="tg-yw4l">fd -t|--type -f foo</td>
+<td class="tg-yw4l">Search for file type only.</td>
+</tr>
+ <tr>
+<td align=left class="tg-yw4l">fd -t|--type d -t|--type e foo</td>
+<td class="tg-yw4l">Search for empty directories only.</td>
+</tr>
+ <tr>
+<td align=left class="tg-yw4l">fd -a|--absolute-path foo</td>
+<td class="tg-yw4l">Search in current directory showing the full path, the string name "foo" of all parent & subdirectories and files.</td>
+</tr>
+<tr>
+<td align=left class="tg-yw4l">fd -e|--extension txt</td>
 <td class="tg-yw4l">Search for a particular file extension.</td>
 </tr>
 <tr>
-<td align=center class="tg-yw4l">fd -H|--hidden foo</td>
+<td align=left class="tg-yw4l">fd -H|--hidden foo</td>
 <td class="tg-yw4l">Search for hidden and ignored files.</td>
 </tr>
 </tbody>
