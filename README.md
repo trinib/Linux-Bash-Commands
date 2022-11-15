@@ -4381,7 +4381,7 @@ cht.sh keyword
 ![hts](https://user-images.githubusercontent.com/18756975/201403803-7f899124-3412-443c-9b6d-e60b8b2ca889.png)<br>
 _**Install**_ :
 ```bash
-sudo apt-get install hstr && hstr --show-configuration >> ~/.bashrc
+sudo apt-get install hstr -y && hstr --show-configuration >> ~/.bashrc
 ```
 > **Note** - Other installation info - [github.com/dvorka/hstr/blob/master/INSTALLATION.md](https://github.com/dvorka/hstr/blob/master/INSTALLATION.md#installation)
 
@@ -4439,11 +4439,11 @@ _**Usage**_ :
 </tr>
  <tr>
 <td align=left class="tg-yw4l">fd /foo -p|--path /FOO2</td>
-<td class="tg-yw4l">Search in the directory "FOO2" and view the files and directory paths and its contents that is or starts with the string pattern name "foo".</td>
+<td class="tg-yw4l">Search in "FOO2" directory and view the files and directory paths and its contents that is or starts with the string pattern name "foo".</td>
 </tr>
  <tr>
 <td align=left class="tg-yw4l">fd foo/ -p|--path /FOO2</td>
-<td class="tg-yw4l">Search in the directory "FOO2" and view the directory paths and its contents that is or ends with the string pattern name "foo".</td>
+<td class="tg-yw4l">Search in "FOO2" directory and view the directory paths and its contents that is or ends with the string pattern name "foo".</td>
 </tr>
 <tr>
 <td align=left class="tg-yw4l">fd -t|--type -d foo</td>
