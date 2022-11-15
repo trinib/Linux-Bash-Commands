@@ -3201,7 +3201,7 @@ tree -d                   # List directory tree
 cd foo                    # Go to foo sub-directory
 cd                        # Go to home directory
 cd ~                      # Go to home directory
-cd -                      # Go to last directory
+cd -                      # Go to the previously chosen directory
 pushd foo                 # Go to foo sub-directory and add previous directory to stack
 popd                      # Go back to directory in stack saved by `pushd`
 ```
@@ -4027,7 +4027,7 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 </tr>
 <tr>
 <td class="tg-yw4l">-</td>
-<td class="tg-yw4l">Previous directory [hyphen]. Go back to previous directory.</td>
+<td class="tg-yw4l">Last directory [hyphen]. Go to the previously chosen directory.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">└─></td>
@@ -4309,8 +4309,8 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 | :--: | :-- |
 | Ctrl+Y     | 	Scrolls page down |
 | Ctrl+V     | 	Scrolls page up|
-| Alt+\    | Got to beginning of file |
-| Alt+/    | Got to end of file |
+| Alt+\    | Go to beginning of file |
+| Alt+/    | Go to end of file |
 | Ctrl+H    | 	Delete character before cursor |
 | Ctrl+D   | Erase character under cursor |
 | Alt+Backspace    | 	Erase word to the left |
@@ -4432,47 +4432,47 @@ _**Usage**_ :
 </tr>
 <tr>
 <td align=left class="tg-yw4l">fd foo</td>
-<td class="tg-yw4l">Search in current directory, the string pattern name "foo", in parent|sub directories and files.</td>
+<td class="tg-yw4l">Find in current directory, the string pattern name "foo", in parent|sub directories and files.</td>
 </tr>
  <tr>
 <td align=left class="tg-yw4l">fd foo /FOO2</td>
-<td class="tg-yw4l">Search in "FOO2" directory, the string pattern name "foo", in parent|sub directories and files.</td>
+<td class="tg-yw4l">Find in "FOO2" directory, the string pattern name "foo", in parent|sub directories and files.</td>
 </tr>
 <tr>
 <td align=left class="tg-yw4l">fd -g|--glob foo /FOO2</td>
-<td class="tg-yw4l">Search in "FOO2" directory, the <a href="https://www.google.com/search?q=What+is+glob+used+for+%3F&client=firefox-b-d&sxsrf=ALiCzsZ01R6o0gluLQgsslLDYABmC3jhcQ%3A1668511191028&ei=13VzY4KrAa3m5NoPgrCxwAw&ved=0ahUKEwjC8uDGiLD7AhUtM1kFHQJYDMgQ4dUDCA4&uact=5&oq=What+is+glob+used+for+%3F&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIHCCMQsAMQJzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwA0oECE0YAUoECEEYAEoECEYYAFAAWABgwgFoAXABeACAAQCIAQCSAQCYAQDIAQnAAQE&sclient=gws-wiz-serp"><b>glob</b></a> pattern name <i>matching</i> "foo", in parent|sub directories and files.</td>
+<td class="tg-yw4l">Find in "FOO2" directory, the <a href="https://www.google.com/search?q=What+is+glob+used+for+%3F&client=firefox-b-d&sxsrf=ALiCzsZ01R6o0gluLQgsslLDYABmC3jhcQ%3A1668511191028&ei=13VzY4KrAa3m5NoPgrCxwAw&ved=0ahUKEwjC8uDGiLD7AhUtM1kFHQJYDMgQ4dUDCA4&uact=5&oq=What+is+glob+used+for+%3F&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIHCCMQsAMQJzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwAzIKCAAQRxDWBBCwA0oECE0YAUoECEEYAEoECEYYAFAAWABgwgFoAXABeACAAQCIAQCSAQCYAQDIAQnAAQE&sclient=gws-wiz-serp"><b>glob</b></a> pattern name <i>matching</i> "foo", in parent|sub directories and files.</td>
 </tr>
  <tr>
 <td align=left class="tg-yw4l">fd /foo -p|--path /FOO2</td>
-<td class="tg-yw4l">Search in "FOO2" directory and view the files and directory paths and its contents that is or starts with the string pattern name "foo".</td>
+<td class="tg-yw4l">Find in "FOO2" directory and view the files and directory paths and its contents that is or starts with the string pattern name "foo".</td>
 </tr>
  <tr>
 <td align=left class="tg-yw4l">fd foo/ -p|--path /FOO2</td>
-<td class="tg-yw4l">Search in "FOO2" directory and view the directory paths and its contents that is or ends with the string pattern name "foo".</td>
+<td class="tg-yw4l">Find in "FOO2" directory and view the directory paths and its contents that is or ends with the string pattern name "foo".</td>
 </tr>
 <tr>
 <td align=left class="tg-yw4l">fd -t|--type -d foo</td>
-<td class="tg-yw4l">Search for directory type only.</td>
+<td class="tg-yw4l">Find for directory type only.</td>
 </tr>
  <tr>
 <td align=left class="tg-yw4l">fd -t|--type -f foo</td>
-<td class="tg-yw4l">Search for file type only.</td>
+<td class="tg-yw4l">Find for file type only.</td>
 </tr>
  <tr>
 <td align=left class="tg-yw4l">fd -t|--type d -t|--type e foo</td>
-<td class="tg-yw4l">Search for empty directories only.</td>
+<td class="tg-yw4l">Find for empty directories only.</td>
 </tr>
  <tr>
 <td align=left class="tg-yw4l">fd -a|--absolute-path foo</td>
-<td class="tg-yw4l">Search in current directory showing the full path, the string name "foo", in parent|sub directories and files.</td>
+<td class="tg-yw4l">Find in current directory showing the full path, the string name "foo", in parent|sub directories and files.</td>
 </tr>
 <tr>
 <td align=left class="tg-yw4l">fd -e|--extension txt</td>
-<td class="tg-yw4l">Search for a particular file extension.</td>
+<td class="tg-yw4l">Find for a particular file extension.</td>
 </tr>
 <tr>
 <td align=left class="tg-yw4l">fd -H|--hidden foo</td>
-<td class="tg-yw4l">Search for hidden and ignored files.</td>
+<td class="tg-yw4l">Find for hidden and ignored files.</td>
 </tr>
 </tbody>
 </table>
@@ -4504,27 +4504,31 @@ commacd exports three commands: forward(`,`) │ backward(`,,`) │ backward+for
 
 _**Usage**_ :
 | Description | commacd | command |
-| :--:| :--: | :-- |
+| :--:| :--: | :--: |
 | Enter directories using| , des | | 
 | abbreviations. | └─>  | cd Desktop |
 
 | Description | commacd | command |
-| :--:| :--: | :-- |
+| :--:| :--: | :--: |
 | Move through multiple directories| , /u/l/ce | | 
 | using abbreviations. | └─>  | cd /usr/local/Cellar |
 
 | Description | commacd | options |
-| :--:| :--: | :-- |
+| :--:| :--: | :--: |
 | Choose directories with names  | , d |  | 
 | starting with same letter. |  0  |  Desktop   |
 | (= multiple choices)       |  1  | Documents |
 |  0, 1 or 2               | 2  | Downloads    |
  
 | Description | commacd | command |
-| :--:| :--: | :-- |
+| :--:| :--: | :--: |
 | Given two directories jdk7 and jdk8 | , ~/d/j*8 | | 
 | on the Desktop, cd into jdk8 without hitting | └─>  | cd ~/Desktop/jdk8   |
 | interactive mode (the one shown above).       |  | |
+
+| Description | commacd | 
+| :--:| :--: | 
+| Go back previous directory | ,, .. |
 
 Tab = Autocomplete
 
