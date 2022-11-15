@@ -4423,23 +4423,23 @@ _**Usage**_ :
 </tr>
 <tr>
 <td align=left class="tg-yw4l">fd foo</td>
-<td class="tg-yw4l">Search in current directory, the string pattern name "foo" of all parent & subdirectories and files.</td>
+<td class="tg-yw4l">Search in current directory, the string pattern name "foo", in parent|sub directories and files.</td>
 </tr>
  <tr>
 <td align=left class="tg-yw4l">fd foo /FOO2</td>
-<td class="tg-yw4l">Search in "FOO2" directory, the string pattern name "foo" of all parent & subdirectories and files.</td>
+<td class="tg-yw4l">Search in "FOO2" directory, the string pattern name "foo", in parent|sub directories and files.</td>
 </tr>
 <tr>
 <td align=left class="tg-yw4l">fd -g|--glob foo</td>
-<td class="tg-yw4l">Search in current directory, the glob pattern name exactly "foo" of all parent & subdirectories and files.</td>
+<td class="tg-yw4l">Search in current directory, the glob pattern name matching "foo", in parent|sub directories and files.</td>
 </tr>
  <tr>
 <td align=left class="tg-yw4l">fd -g|--glob foo /FOO2</td>
-<td class="tg-yw4l">Search in "FOO2" directory, the glob pattern name exactly "foo" of all parent & subdirectories and files.</td>
+<td class="tg-yw4l">Search in "FOO2" directory, the glob pattern name matching "foo", in parent|sub directories and files.</td>
 </tr>
  <tr>
 <td align=left class="tg-yw4l">fd foo /FOO2</td>
-<td class="tg-yw4l">Search in the directory "FOO2", the string pattern name "foo" of all parent & subdirectories and files.</td>
+<td class="tg-yw4l">Search in the directory "FOO2", the string pattern name "foo", in parent|sub directories and files.</td>
 </tr>
  <tr>
 <td align=left class="tg-yw4l">fd /foo -p|--path /FOO2</td>
@@ -4463,7 +4463,7 @@ _**Usage**_ :
 </tr>
  <tr>
 <td align=left class="tg-yw4l">fd -a|--absolute-path foo</td>
-<td class="tg-yw4l">Search in current directory showing the full path, the string name "foo" of all parent & subdirectories and files.</td>
+<td class="tg-yw4l">Search in current directory showing the full path, the string name "foo", in parent|sub directories and files.</td>
 </tr>
 <tr>
 <td align=left class="tg-yw4l">fd -e|--extension txt</td>
@@ -4481,6 +4481,7 @@ _**Usage**_ :
 >     man fd
 #
 
+</p>
  </details>
 
 <details><summary><h3>A faster way to move around directories <img src="https://user-images.githubusercontent.com/18756975/201506739-b30571af-0223-4413-86a6-c6fb6a887ce3.png" width=15px height=20px></h3></summary>
