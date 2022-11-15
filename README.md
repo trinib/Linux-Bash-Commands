@@ -4510,7 +4510,7 @@ _**Usage**_ :
 
 | Description | commacd | command |
 | :--:| :--: | :--: |
-| Move through multiple directories| , /u/l/ce | | 
+| Move through multiple directories| , u/l/ce | | 
 | using abbreviations. | └─>  | cd /usr/local/Cellar |
 
 | Description | commacd | options |
