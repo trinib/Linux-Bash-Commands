@@ -4383,7 +4383,7 @@ _**Install**_ :
 ```bash
 sudo apt-get install hstr && hstr --show-configuration >> ~/.bashrc
 ```
-> **Note** - Other installation info - [github.com/dvorka/hstr/blob/master/INSTALLATION.md](https://github.com/dvorka/hstr/blob/master/INSTALLATION.md#ubuntu)
+> **Note** - Other installation info - [github.com/dvorka/hstr/blob/master/INSTALLATION.md](https://github.com/dvorka/hstr/blob/master/INSTALLATION.md#installation)
 
 **_Usage_** :
 ```bash
