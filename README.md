@@ -4274,16 +4274,25 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 | Ctrl+E     | Moves cursor to end of text in line |
 | Ctrl+B     | Moves cursor backward one character position |
 | Ctrl+F     | Moves cursor forward one character position  |
+| Alt+F      | Moves cursor one word forward in line |
+| Alt+B      | Moves cursor one word backwards in line |
 | Ctrl+U     | Erase a line of input from cursor right to left |
 | Ctrl+K     | Erase a line of input from cursor left to right |
 | Ctrl+D     | Erase character forward from cursor left to right  |
 | Ctrl+H     | Erase character backward from cursor right to left  |
+| Alt+D      | Erase the next word from cursor left to right |
 | Ctrl+W     | Erase backwards to first non-alphanumeric character or empty space |
 | Ctrl+P     | Fetch previous command from history list  |
 | Ctrl+N     | Fetch next command from history list  |
-| Ctrl+Y     | Fetch back command previously erased |
+| Ctrl+/     | Undo changes in command-line|
+| Alt+R      | Reverts any changes to a previously executed command that's being edited |
+| Alt+.      | Fetch and paste the last word at end of a command from previous commands |
 | Ctrl+T     | Reverses the position of the character the cursor is on with the previous character |
+| Alt+T      | Reverses the position of the word the cursor is in with the previous word |
+| Alt+U      | Capitalizes every character from cursor left to right to the end of one word  |
+| Alt+L      | UnCapitalizes every character from cursor left to right to the end of one word |
 | Ctrl+R     | Reverse search commands from history list |
+| Ctrl+Y     | Causes the process to be stopped|
 | Ctrl+Z     | Pauses a foreground job  |
 | Ctrl+C     | Break/Terminate a foreground job |
 | Ctrl+M     | Clear the current line |
@@ -4292,16 +4301,7 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 | Ctrl+S     | Suspend |
 | Ctrl+Q     | Resume |
 | Ctrl+D     | Log out from a shell (similar to exit) |
-| Ctrl+/     | Undo changes in command-line|
  Ctrl+X(twice)| The cursor jumps back and forth between the current position to the beginning of the line |
-| Alt+F     | Moves cursor one word forward in line |
-| Alt+B     | Moves cursor one word backwards in line |
-| Alt+D     | Erase the next word from cursor left to right |
-| Alt+T     | Reverses the position of the word the cursor is in with the previous word |
-| Alt+U     | Capitalizes every character from cursor left to right to the end of one word  |
-| Alt+L     | UnCapitalizes every character from cursor left to right to the end of one word |
-| Alt+R     | Reverts any changes to a previously executed command that's being edited |
-| Alt+.     | Fetch and paste the last word at end of a command from previous commands |
 
 ### Nano 
 
