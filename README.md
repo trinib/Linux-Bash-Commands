@@ -4378,6 +4378,7 @@ cht.sh keyword
 |  |  |
 | :--: | :--: |
 | [introduction-to-bash-scripting](https://github.com/bobbyiliev/introduction-to-bash-scripting)  | Free Introduction to Bash Scripting eBook|
+| [100-shell-script-examples](https://github.com/epety/100-shell-script-examples) | Collection of shell scripts found on the internet |
 | [simple-bash-scripts](https://github.com/ruanyf/simple-bash-scripts)  | A collection of simple Bash scripts |
 | [shell-examples](https://github.com/qjcg/shell-examples)  | Little Bash shell scripting examples |
 | [bash-utils](https://github.com/pirate/bash-utils)| A collection of hand-crafted bash scripts for various common tasks |
