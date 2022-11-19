@@ -115,9 +115,11 @@ fzf interactive searching🔎 :
 </p>
  </details>
 
-<details><summary><h3>A faster way to move around directories <img src="https://user-images.githubusercontent.com/18756975/201506739-b30571af-0223-4413-86a6-c6fb6a887ce3.png" width=15px height=20px></h3></summary>
+<details><summary><h3>Smarter directory navigating <img src="https://user-images.githubusercontent.com/18756975/201506739-b30571af-0223-4413-86a6-c6fb6a887ce3.png" width=15px height=20px></h3></summary>
 
 [commacd](https://github.com/shyiko/commacd)
+ 
+A faster way to move around 
 
 _**Install**_ :
 ```bash
@@ -160,7 +162,48 @@ Tab = Autocomplete
 >**Note** - More info on usage :
 
 >   [shyiko.com/commacd](https://shyiko.com/2014/10/10/commacd/)
+ 
+# 
+ 
+[zoxide](https://github.com/ajeetdsouza/zoxide)
+ 
+It remembers which directories you use most frequently, so you can "jump" to them in just a few keystrokes.
+ 
+<img src="https://user-images.githubusercontent.com/18756975/202857373-1317ab89-d787-4b11-b5b0-c0cd4ce154ab.gif" width=500px height=300px>
 
+
+
+_**Install**_ :
+```bash
+apt install zoxide
+```
+ 
+Open ~/.bashrc and add 
+```
+eval "$(zoxide init bash)"
+```
+_Restart terminal_
+ 
+_**Usage**_ :
+ ```bash
+z foo              # cd into highest ranked directory matching foo
+z foo bar          # cd into highest ranked directory matching foo and bar
+z foo /            # cd into a subdirectory starting with foo
+
+z ~/foo            # z also works like a regular cd command
+z foo/             # cd into relative path
+z ..               # cd one level up
+z -                # cd into previous directory
+
+zi foo             # cd with interactive selection (using fzf)
+
+z foo<SPACE><TAB>  # show interactive completions (zoxide v0.8.0+, bash 4.4+/fish/zsh only)
+```
+ 
+>**Note** - More info on usage :
+
+>   [Algorithm matching](https://github.com/ajeetdsouza/zoxide/wiki/Algorithm#matching)
+ 
 #
 
 </p>
