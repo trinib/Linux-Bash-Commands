@@ -4352,6 +4352,7 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 |Perl                   |[pkrumnis/perl1line.txt](https://github.com/pkrumins/perl1line.txt)                 |![](https://img.shields.io/github/contributors-anon/pkrumins/perl1line.txt?label=%F0%9F%91%A5&labelColor=white)        |![](https://img.shields.io/github/stars/pkrumins/perl1line.txt?label=%E2%AD%90&labelColor=white)        |Nov 4, 2011  |
 |Programming languages  |[StackOverflow](https://stackoverflow.com)                                          |[14M](https://stackexchange.com/leagues/1/alltime/stackoverflow)|N/A  
 
+### Usage 
 _**Terminal**_ :
 ```bash
 curl cht.sh/keyword
