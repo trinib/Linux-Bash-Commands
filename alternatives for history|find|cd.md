@@ -6,8 +6,9 @@
 ![hts](https://user-images.githubusercontent.com/18756975/201403803-7f899124-3412-443c-9b6d-e60b8b2ca889.png)<br>
 _**Install**_ :
 ```bash
-sudo apt-get install hstr -y && hstr --show-configuration >> ~/.bashrc
+sudo apt install hstr -y && hstr --show-configuration >> ~/.bashrc
 ```
+_Restart terminal_
 > **Note** - Other installation info - [github.com/dvorka/hstr/blob/master/INSTALLATION.md](https://github.com/dvorka/hstr/blob/master/INSTALLATION.md#installation)
 
 **_Usage_** :
@@ -35,9 +36,8 @@ Interactive searching🔎 :
 
 _**Install**_ :
 ```bash
-sudo apt-get install fd-find -y && sudo apt-get install fzf -y  
+sudo apt install fd-find -y && sudo apt install fzf -y  
 ```
-
 _**Add binary link**_<i>(set correct bin directory location if error)</i> :
 ```bash
 ln -s $(which fdfind) ~/.local/bin/fd
@@ -171,18 +171,17 @@ It remembers which directories you use most frequently, so you can "jump" to the
  
 <img src="https://user-images.githubusercontent.com/18756975/202857373-1317ab89-d787-4b11-b5b0-c0cd4ce154ab.gif" width=500px height=300px>
 
-
-
 _**Install**_ :
 ```bash
-apt install zoxide
+sudo apt install zoxide
 ```
- 
 Open ~/.bashrc and add 
 ```
 eval "$(zoxide init bash)"
 ```
 _Restart terminal_
+ 
+> **Note** - Other installation info - [github.com/ajeetdsouza/zoxide#installation](https://github.com/ajeetdsouza/zoxide#installation)
  
 _**Usage**_ :
  ```bash
