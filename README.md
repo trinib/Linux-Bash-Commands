@@ -4216,8 +4216,8 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 <td class="tg-yw4l">All the arguments are seen as a single word.</td>
 </tr>
 <tr>
-<td class="tg-yw4l">$*</td>
-<td class="tg-yw4l">All the arguments that are individually double quoted and seen as a single word.</td>
+<td class="tg-yw4l">!!</td>
+<td class="tg-yw4l">The previous command.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">!$</td>
