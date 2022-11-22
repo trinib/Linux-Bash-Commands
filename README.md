@@ -4262,6 +4262,8 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 </tbody>
 </table>
 
+ [⬆ ʀᴇᴛᴜʀɴ ᴛᴏ ᴛᴏᴩ](#special-characters-)
+
 </p>
  </details>
  
@@ -4270,21 +4272,21 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 
 | Key | Function |
 | :--: | :-- |
-| Ctrl+A     | Moves cursor to beginning of text in line |
-| Ctrl+E     | Moves cursor to end of text in line |
-| Ctrl+B     | Moves cursor backward one character position |
-| Ctrl+F     | Moves cursor forward one character position  |
-| Alt+F      | Moves cursor one word forward in line |
-| Alt+B      | Moves cursor one word backwards in line |
-| Ctrl+U     | Erase a line of input from cursor right to left |
-| Ctrl+K     | Erase a line of input from cursor left to right |
-| Ctrl+D     | Erase character forward from cursor left to right  |
-| Ctrl+H     | Erase character backward from cursor right to left  |
-| Alt+D      | Erase the next word from cursor left to right |
+| Ctrl+B     | Moves cursor backward one character position                       |
+| Ctrl+F     | Moves cursor forward one character position                        |
+| Alt+F      | Moves cursor one word forward in line                              |
+| Alt+B      | Moves cursor one word backwards in line                            |
+| Ctrl+A     | Moves cursor to beginning of text in line                          |
+| Ctrl+E     | Moves cursor to end of text in line                                |
+| Ctrl+D     | Erase character forward from cursor left to right                  |
+| Ctrl+H     | Erase character backward from cursor right to left                 |
+| Alt+D      | Erase the next word from cursor left to right                      |
 | Ctrl+W     | Erase backwards to first non-alphanumeric character or empty space |
-| Ctrl+P     | Fetch previous command from history list  |
-| Ctrl+N     | Fetch next command from history list  |
-| Ctrl+/     | Undo changes in command-line|
+| Ctrl+U     | Erase a line of input from cursor right to left                    |
+| Ctrl+K     | Erase a line of input from cursor left to right                    |
+| Ctrl+P     | Fetch previous command from history list                           |
+| Ctrl+N     | Fetch next command from history list                               |
+| Ctrl+/     | Undo changes in command-line                                       |
 | Alt+R      | Reverts any changes to a previously executed command that's being edited |
 | Alt+.      | Fetch and paste the last word at end of a command from previous commands |
 | Ctrl+T     | Reverses the position of the character the cursor is on with the previous character |
@@ -4323,7 +4325,7 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 | Alt+U   | Undo last action  |
 | Alt+E    | Redo last undone action |
 | Ctrl+Q      | Start backward search. Press Ctrl+Q to search for the same phrase again |
-| Ctrl+W     | Start forward search. Press ALT + W to search for the same phrase again |
+| Ctrl+W     | Start forward search. Press ALT+W to search for the same phrase again |
 | Ctrl+\    | Replaces string or a regular expression  |
 | Alt+3    | 	Comment/uncomment line/region |
 | Ctrl+R    | Opens a file and inserts it at the current cursor position |
@@ -4337,11 +4339,14 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 
 ---
 
-<details><summary><h3>Online Cheat Sheet for quick references of commands and codes <img src="https://user-images.githubusercontent.com/18756975/201507134-d2f5d9fc-0521-4e65-aba2-f5c7561939f0.png" width=20px height=20px></h3></summary>
+<details><summary><h3>Online Cheat Sheet for quick references of commands and codes <img src="https://user-images.githubusercontent.com/18756975/201534292-3b617041-77a8-4e2f-8683-641d0b8d7f57.PNG" width=15px height=20px></h3></summary>
 
 [cheat.sh](https://github.com/chubin/cheat.sh)<br>
 ![image](https://user-images.githubusercontent.com/18756975/200065767-13a6249f-2188-4206-8073-1714be57c408.png)<br>
-#### Cheat sheets sources
+<div align="center"> 
+<details><summary><h4>Cheat sheets sources</h4></summary>
+<p>
+
 |Cheat sheets           |Repository                                                                          |C/U*                                                                                                                  |Stars                                                                                                   |Creation Date|
 |-----------------------|------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------|-------------|
 |UNIX/Linux, programming|[cheat.sheets](https://github.com/chubin/cheat.sheets)                              |![](https://img.shields.io/github/contributors-anon/chubin/cheat.sheets?label=%F0%9F%91%A5&labelColor=white)           |![](https://img.shields.io/github/stars/chubin/cheat.sheets?label=%E2%AD%90&labelColor=white)           |May 1, 2017  |
@@ -4352,6 +4357,11 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 |Perl                   |[pkrumnis/perl1line.txt](https://github.com/pkrumins/perl1line.txt)                 |![](https://img.shields.io/github/contributors-anon/pkrumins/perl1line.txt?label=%F0%9F%91%A5&labelColor=white)        |![](https://img.shields.io/github/stars/pkrumins/perl1line.txt?label=%E2%AD%90&labelColor=white)        |Nov 4, 2011  |
 |Programming languages  |[StackOverflow](https://stackoverflow.com)                                          |[14M](https://stackexchange.com/leagues/1/alltime/stackoverflow)|N/A  
 
+
+</p>
+ </details>
+ </div> 
+ 
 ### Usage 
 _**Terminal**_ :
 ```bash
@@ -4367,7 +4377,7 @@ _**Browser**_ :
 
 #
 
- ### Offline usage [Install](https://github.com/chubin/cheat.sh#installation) cheat script manually<br>
+ ### Offline usage [install](https://github.com/chubin/cheat.sh#installation) cheat script manually<br>
 _**Install globally(all users)**_ :
 ```bash
 curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht.sh && sudo chmod +x /usr/local/bin/cht.sh
@@ -4385,7 +4395,7 @@ cht.sh keyword
 
 ---
 
-<details><summary><h3>More bash resources <img src="https://user-images.githubusercontent.com/18756975/201534292-3b617041-77a8-4e2f-8683-641d0b8d7f57.PNG" width=15px height=20px> </h3></summary>
+<details><summary><h3>More bash resources <img src="https://user-images.githubusercontent.com/18756975/203332636-6012a214-21d9-423a-b20e-09beed4d9a25.png" width=15px height=20px> </h3></summary>
 
 |  |  |
 | :--: | :--: |
