@@ -2539,6 +2539,14 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 <td class="tg-yw4l">syslogd</td>
 <td class="tg-yw4l">Read and log system messages to the system console and log files.</td>
 </tr>
+<tr> 
+<td class="tg-yw4l">service</td> 
+<td class="tg-yw4l">This command is used to manage system services.</td>
+</tr>
+<tr> 
+<td class="tg-yw4l">systemctl</td> 
+<td class="tg-yw4l">This command can be used to start, stop, and check the status of system services.</td>
+</tr>
 </tbody>
 </table>
  
