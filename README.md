@@ -2331,6 +2331,10 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 <td class="tg-yw4l">seq</td>
 <td class="tg-yw4l">Displays an incremental sequence of numbers from first to last.</td>
 </tr>
+<tr> 
+<td class="tg-yw4l">service</td> 
+<td class="tg-yw4l">This command is used to manage system services.</td>
+</tr>
 <tr>
 <td class="tg-yw4l">set</td>
 <td class="tg-yw4l">Used to manipulate shell variables and functions.</td>
@@ -2538,10 +2542,6 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 <tr>
 <td class="tg-yw4l">syslogd</td>
 <td class="tg-yw4l">Read and log system messages to the system console and log files.</td>
-</tr>
-<tr> 
-<td class="tg-yw4l">service</td> 
-<td class="tg-yw4l">This command is used to manage system services.</td>
 </tr>
 <tr> 
 <td class="tg-yw4l">systemctl</td> 
