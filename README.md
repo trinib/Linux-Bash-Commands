@@ -3118,7 +3118,10 @@ Credits: <a href="https://fossbytes.com"><b>fossbytes</b></a> & <a href="https:/
 <p>
   
 >**Warning**<br>
->  Examples like `-a|--all` option flags means, single `-` used for _short_ option(-a) **or**|  double `--` used for _long_ option(--all). Both was added for educational purpose.
+>    - A single hyphen `-` is used to represent a short option, such as `-a`.<br>
+>    - A double hyphen `--` is used to denote a long option, such as `--all`.<br>
+>    - Both short and long options were incorporated for educational purposes, allowing users to choose the preferred format.<br>
+>    - It's important to note that not all commands have both short and long options. Some commands may only have short options, while others may only have long options.
 
 ### Contents
 - [Command Information](#command-information)
