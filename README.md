@@ -3237,7 +3237,7 @@ cp -R|--recursive foo bar                              # Copy directory
 mv foo bar                                             # Move directory
 
 rsync -z|--compress -v|--verbose /foo /bar             # Copy directory, overwrites destination
-rsync --ignore-existing -a|--archive-a|--archive -z|--compress -v|--verbose /foo /bar # Copy directory, without overwriting destination
+rsync --ignore-existing -a|--archive -z|--compress -v|--verbose /foo /bar # Copy directory, without overwriting destination
 rsync -avz /foo username@hostname:/bar                 # Copy local directory to remote directory
 rsync -avz username@hostname:/foo /bar                 # Copy remote directory to local directory
 ```
