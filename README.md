@@ -7,7 +7,7 @@
 
 _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&client=firefox-b-d&sxsrf=ALiCzsZmYtgn9ctD5vHAqgVFkM5tZ514pw%3A1667926333803&ei=PYlqY6XIMNmNwbkPqeK3qAo&ved=0ahUKEwjl2ozlhZ_7AhXZRjABHSnxDaUQ4dUDCA4&uact=5&oq=What+is+UNIX+explain%3F&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIFCAAQhgMyBQgAEIYDMgUIABCGAzIFCAAQhgM6CggAEEcQ1gQQsAM6BwgAELADEENKBAhNGAFKBAhBGABKBAhGGABQnAFYnAFgvwNoAXABeACAAa0BiAGtAZIBAzAuMZgBAKABAqABAcgBCsABAQ&sclient=gws-wiz-serp) command-line interface (CLI). Also called the terminal, the command line, or the shell. It's a command language that allows us to work with files on our computers in a way that's far more efficient and powerful than using a GUI (graphical user interface)._
 
-<details><summary><h3>A to Z command list 📚</h3></summary>
+<details><summary>A to Z command list 📚</summary>
 <p>
 
 > **Note**<br>
@@ -3114,7 +3114,7 @@ Credits: <a href="https://fossbytes.com"><b>fossbytes</b></a> & <a href="https:/
 </p>
  </details>
  
-<details><summary><h3>Quick cheat sheet 📝</h3></summary>
+<details><summary>Quick cheat sheet 📝</summary>
 <p>
   
 >**Warning**<br>
@@ -4020,7 +4020,7 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 </p>
  </details>
  
-<details><summary><h3>Special characters 🔣</h3></summary>
+<details><summary>Special characters 🔣</summary>
 <p>
 
 > **Note** <br>
@@ -4278,7 +4278,7 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 </p>
  </details>
  
-<details><summary><h3>Keyboard controls ⌨️<h3></summary>
+<details><summary>Keyboard controls ⌨️</summary>
 <p> 
 
 | Key | Function |
@@ -4350,7 +4350,7 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 
 ---
 
-<details><summary><h3>Online Cheat Sheet for quick references of commands and codes <img src="https://user-images.githubusercontent.com/18756975/201534292-3b617041-77a8-4e2f-8683-641d0b8d7f57.PNG" width=15px height=20px></h3></summary>
+<details><summary>Online Cheat Sheet for quick references of commands and codes <img src="https://user-images.githubusercontent.com/18756975/201534292-3b617041-77a8-4e2f-8683-641d0b8d7f57.PNG" width=15px height=20px></summary>
 
 [cheat.sh](https://github.com/chubin/cheat.sh)<br>
 ![image](https://user-images.githubusercontent.com/18756975/200065767-13a6249f-2188-4206-8073-1714be57c408.png)<br>
@@ -4406,7 +4406,7 @@ cht.sh keyword
 
 ---
 
-<details><summary><h3>More bash resources <img src="https://user-images.githubusercontent.com/18756975/203332636-6012a214-21d9-423a-b20e-09beed4d9a25.png" width=15px height=20px> </h3></summary>
+<details><summary>More bash resources <img src="https://user-images.githubusercontent.com/18756975/203332636-6012a214-21d9-423a-b20e-09beed4d9a25.png" width=15px height=20px></summary>
 
 |  |  |
 | :--: | :--: |
