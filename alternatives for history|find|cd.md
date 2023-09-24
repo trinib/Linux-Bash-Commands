@@ -1,6 +1,6 @@
 <i>The most commonly used commands when navigating are `history`, `find`, `cd`. Here are some examples of simple alternative tools that does a better job.</i>
 
-<details><summary>Easily view, navigate, search history commands <img src="https://user-images.githubusercontent.com/18756975/201506874-0dd9a164-0b81-45fe-9c91-63122dcec9b8.PNG" width=20px height=20px></summary>
+<details><summary><b>Easily view, navigate, search history commands</b> <img src="https://user-images.githubusercontent.com/18756975/201506874-0dd9a164-0b81-45fe-9c91-63122dcec9b8.PNG" width=20px height=20px></summary>
 
 [htsr](https://github.com/dvorka/hstr)<br>
 ![hts](https://user-images.githubusercontent.com/18756975/201403803-7f899124-3412-443c-9b6d-e60b8b2ca889.png)<br>
@@ -27,7 +27,7 @@ Interactive searching🔎 :
  </details>
 
 
-<details><summary>A simple and userfriendly way to find files <img src="https://user-images.githubusercontent.com/18756975/201507256-a36e655d-66b0-4851-a035-6c87b10d7f1e.PNG" width=16px height=20px></summary>
+<details><summary><b>A simple and userfriendly way to find files</b> <img src="https://user-images.githubusercontent.com/18756975/201507256-a36e655d-66b0-4851-a035-6c87b10d7f1e.PNG" width=16px height=20px></summary>
 
 <p align="center">
 <a href="https://github.com/sharkdp/fd"><b>fd</b></a> and <a href="https://github.com/junegunn/fzf"><b>fzf</b></a><br>
@@ -115,7 +115,7 @@ fzf interactive searching🔎 :
 </p>
  </details>
 
-<details><summary>Smarter directory navigating <img src="https://user-images.githubusercontent.com/18756975/201506739-b30571af-0223-4413-86a6-c6fb6a887ce3.png" width=15px height=20px></summary>
+<details><summary><b>Smarter directory navigating</b> <img src="https://user-images.githubusercontent.com/18756975/201506739-b30571af-0223-4413-86a6-c6fb6a887ce3.png" width=15px height=20px></summary>
 
 [commacd](https://github.com/shyiko/commacd)
  
@@ -208,4 +208,7 @@ z foo<SPACE><TAB>  # show interactive completions (zoxide v0.8.0+, bash 4.4+/fis
 </p>
  </details>
  
-_There are many more alternative tools available that may fit your needs_
+<br>
+
+>**Note**
+: There are more alternative tools available out there that may fit your needs
