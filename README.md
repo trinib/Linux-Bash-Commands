@@ -7,7 +7,7 @@
 
 _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&client=firefox-b-d&sxsrf=ALiCzsZmYtgn9ctD5vHAqgVFkM5tZ514pw%3A1667926333803&ei=PYlqY6XIMNmNwbkPqeK3qAo&ved=0ahUKEwjl2ozlhZ_7AhXZRjABHSnxDaUQ4dUDCA4&uact=5&oq=What+is+UNIX+explain%3F&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIFCAAQhgMyBQgAEIYDMgUIABCGAzIFCAAQhgM6CggAEEcQ1gQQsAM6BwgAELADEENKBAhNGAFKBAhBGABKBAhGGABQnAFYnAFgvwNoAXABeACAAa0BiAGtAZIBAzAuMZgBAKABAqABAcgBCsABAQ&sclient=gws-wiz-serp) command-line interface (CLI). Also called the terminal, the command line, or the shell. It's a command language that allows us to work with files on our computers in a way that's far more efficient and powerful than using a GUI (graphical user interface)._
 
-<details><summary>A to Z command list 📚</summary>
+<details><summary><b>A to Z command list 📚</b></summary>
 <p>
 
 > **Note**<br>
@@ -3114,7 +3114,7 @@ Credits: <a href="https://fossbytes.com"><b>fossbytes</b></a> & <a href="https:/
 </p>
  </details>
  
-<details><summary>Quick cheat sheet 📝</summary>
+<details><summary><b>Quick cheat sheet 📝</b></summary>
 <p>
   
 >**Warning**<br>
@@ -4020,7 +4020,7 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 </p>
  </details>
  
-<details><summary>Special characters 🔣</summary>
+<details><summary><b>Special characters 🔣</b></summary>
 <p>
 
 > **Note** <br>
@@ -4278,7 +4278,7 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 </p>
  </details>
  
-<details><summary>Keyboard controls ⌨️</summary>
+<details><b><summary>Keyboard controls ⌨️</b></summary>
 <p> 
 
 | Key | Function |
@@ -4350,12 +4350,12 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 
 ---
 
-<details><summary>Online Cheat Sheet for quick references of commands and codes <img src="https://user-images.githubusercontent.com/18756975/201534292-3b617041-77a8-4e2f-8683-641d0b8d7f57.PNG" width=15px height=20px></summary>
+<details><summary><b>Cheat Sheet for quick references of commands and codes</b> <img src="https://user-images.githubusercontent.com/18756975/201534292-3b617041-77a8-4e2f-8683-641d0b8d7f57.PNG" width=15px height=20px></summary>
 
 [cheat.sh](https://github.com/chubin/cheat.sh)<br>
 ![image](https://user-images.githubusercontent.com/18756975/200065767-13a6249f-2188-4206-8073-1714be57c408.png)<br>
 <div align="center"> 
-<details><summary><h4>Cheat sheets sources</h4></summary>
+<details><summary><b>Cheat sheets sources</b></summary>
 <p>
 
 |Cheat sheets           |Repository                                                                          |C/U*                                                                                                                  |Stars                                                                                                   |Creation Date|
@@ -4373,7 +4373,7 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
  </details>
  </div> 
  
-### Usage 
+### Usage (Online)
 _**Terminal**_ :
 ```bash
 curl cht.sh/keyword
@@ -4388,7 +4388,7 @@ _**Browser**_ :
 
 #
 
- ### Offline usage [install](https://github.com/chubin/cheat.sh#installation) cheat script manually<br>
+ ### Offline usage <a href="https://github.com/chubin/cheat.sh#installation">install</a> cheat script manually<br>
 _**Install globally(all users)**_ :
 ```bash
 curl -s https://cht.sh/:cht.sh | sudo tee /usr/local/bin/cht.sh && sudo chmod +x /usr/local/bin/cht.sh
@@ -4406,7 +4406,7 @@ cht.sh keyword
 
 ---
 
-<details><summary>More bash resources <img src="https://user-images.githubusercontent.com/18756975/203332636-6012a214-21d9-423a-b20e-09beed4d9a25.png" width=15px height=20px></summary>
+<details><summary><b>More bash resources</b> <img src="https://user-images.githubusercontent.com/18756975/203332636-6012a214-21d9-423a-b20e-09beed4d9a25.png" width=15px height=20px></summary>
 
 |  |  |
 | :--: | :--: |
@@ -4424,7 +4424,6 @@ cht.sh keyword
 | [awesome-cli](https://github.com/Kikobeats/awesome-cli) | A curated list of awesome resources for building immersive CLI experiences |
 | [awesome-cli](https://github.com/umutphp/awesome-cli) | A simple command line tool to give you a fancy command line interface to dive into Awesome lists |
 | [terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy)  | A curated list of Terminal frameworks, plugins & resources for CLI lovers |
-| [funny-Linux-Commands](https://github.com/Debargha-Mitra-Roy/Funny-Linux-Commands) | Funny Linux Commands in Ubuntu |
 | [awesome-ttygames](https://github.com/ligurio/awesome-ttygames) | Unix ASCII games |
 
 </p>
