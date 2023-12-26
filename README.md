@@ -10,8 +10,8 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 <details><summary><b>A to Z command list 📚</b></summary>
 <p>
 
-> **Note**<br>
-> Use `Ctrl+f` to search in browsers🔎
+> **Note** 💡<br>
+> Use `Ctrl+f` to search keywords in desktop browsers, for mobile go to `menu > find in page`.
   
 <div align="center">
 
@@ -3117,9 +3117,12 @@ Credits: <a href="https://fossbytes.com"><b>fossbytes</b></a> & <a href="https:/
 <details><summary><b>Quick cheat sheet 📝</b></summary>
 <p>
   
->**Warning**<br>
+>**Note** 💡<br>
+
 >    - A single hyphen `-` is used to represent a short option, such as `-a`.<br>
 >    - A double hyphen `--` is used to denote a long option, such as `--all`.<br>
+>    - Example command : `ls -a|--all` (List all directories). Can use either use the short or long options.
+     
 >    - Both short and long options were incorporated for educational purposes, allowing users to choose the preferred format.<br>
 >    - It's important to note that not all commands have both short and long options. Some commands may only have short options, while others may only have long options.
 
@@ -4023,8 +4026,8 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 <details><summary><b>Special characters 🔣</b></summary>
 <p>
 
-> **Note** <br>
-> └─> = or
+> **Note** 💡<br>
+> This symbol "└─>" represents an alternative meaning of some characters.
 
 <table class="tg">
 <tbody>
@@ -4066,7 +4069,7 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 </tr>
 <tr>
 <td class="tg-yw4l">|</td>
-<td class="tg-yw4l">Pipe. This is a method of chaining commands together. Connects the output (stdout) of command1 to the input (stdin) of command2. Each command reads the previous command’s output.</td>
+<td class="tg-yw4l">Pipe. This is a method of chaining commands together. Connects the <a href="https://www.google.com/search?q=What+is+an+output+command+in+linux+%3F&client=firefox-b-1-d&sca_esv=f2188c427bbface5&sca_upv=1&biw=1600&bih=733&sxsrf=AM9HkKk2mrH69ExcrN_rFQsqE_gEyomw-A%3A1703595497238&ei=6c2KZeyaDpr8wbkPrs6P0Aw&ved=0ahUKEwiss9Djk62DAxUafjABHS7nA8oQ4dUDCBA&uact=5&oq=What+is+an+output+command+in+linux+%3F&gs_lp=Egxnd3Mtd2l6LXNlcnAiJFdoYXQgaXMgYW4gb3V0cHV0IGNvbW1hbmQgaW4gbGludXggPzIEECMYJ0i3DlDfBVjfBXABeAGQAQCYAbEBoAGxAaoBAzAuMbgBA8gBAPgBAcICChAAGEcY1gQYsAPiAwQYACBBiAYBkAYI&sclient=gws-wiz-serp" target="_blank"><b>output (stdout)</b></a> of command1 to the <a href="https://www.google.com/search?q=what+is+an+input+command+in+linux+%3F&client=firefox-b-1-d&sca_esv=f2188c427bbface5&sca_upv=1&biw=1600&bih=733&sxsrf=AM9HkKlWpe5HFcG_bCtCc80V7cdGZ8AFuQ%3A1703595749415&ei=5c6KZZ6DGcuqwbkPmOa44AY&oq=What+is+an+input+command+in+%3F&gs_lp=Egxnd3Mtd2l6LXNlcnAiHVdoYXQgaXMgYW4gaW5wdXQgY29tbWFuZCBpbiA_KgIIADIEECMYJ0iTCVDfAljfAnACeAGQAQCYAaoBoAGqAaoBAzAuMbgBAcgBAPgBAcICChAAGEcY1gQYsAPiAwQYACBBiAYBkAYI&sclient=gws-wiz-serp" target="_blank"><b>input (stdin)</b></a> of command2. Each command reads the previous command’s output.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">|&</td>
