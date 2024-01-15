@@ -630,7 +630,7 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 </tr>
 <tr>
 <td class="tg-yw4l">dpkg</td>
-<td class="tg-yw4l">Installs and removes software packages in the .deb format. Can be used alongside tools like apt for efficient package management.</td>
+<td class="tg-yw4l">Install, build, remove and manage software packages in the .deb format. Can be used alongside tools like apt for efficient package management.</td>
 </tr>
 <tr>
 <td class="tg-yw4l">dstat</td>
