@@ -629,6 +629,10 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 <td class="tg-yw4l">Used to retrieve information or statistics form components of the system such as network connections, IO devices, or CPU, etc.</td>
 </tr>
 <tr>
+<td class="tg-yw4l">dpkg</td>
+<td class="tg-yw4l">Installs and removes software packages in the .deb format. Can be used alongside tools like apt for efficient package management.</td>
+</tr>
+<tr>
 <td class="tg-yw4l">dstat</td>
 <td class="tg-yw4l">Check and repair MS-DOS file systems.</td>
 </tr>
@@ -3527,7 +3531,9 @@ apt upgrade                         # Upgrades all upgradable packages
 apt clean                           # Clears out the local repository of downloaded package files
 
 dpkg -i|--install package_name.deb  # Install deb file
-rpm -i|--install package_name.rpm   # Install rpm file 
+dpkg -P package_name.deb            # Remove a deb file installion (including configuration files)
+rpm -i|--install package_name.rpm   # Install a rpm file installion
+rpm -e package_name.rpm             # Remove rpm file installion (including dependencies)
 ```
 
 ### Install package source code
