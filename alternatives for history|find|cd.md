@@ -210,5 +210,6 @@ z foo<SPACE><TAB>  # show interactive completions (zoxide v0.8.0+, bash 4.4+/fis
  
 <br>
 
->**Note**
-: There are more alternative tools available out there that may fit your needs
+> [!NOTE]
+> There are more alternative tools available out there that may better fit your needs.<br>
+> Check out [Modern Unix](https://github.com/ibraheemdev/modern-unix) - A collection of modern/faster/saner alternatives to common unix commands.
