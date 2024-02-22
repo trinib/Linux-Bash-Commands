@@ -7,7 +7,7 @@
 
 _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&client=firefox-b-d&sxsrf=ALiCzsZmYtgn9ctD5vHAqgVFkM5tZ514pw%3A1667926333803&ei=PYlqY6XIMNmNwbkPqeK3qAo&ved=0ahUKEwjl2ozlhZ_7AhXZRjABHSnxDaUQ4dUDCA4&uact=5&oq=What+is+UNIX+explain%3F&gs_lcp=Cgxnd3Mtd2l6LXNlcnAQAzIFCAAQgAQyBQgAEIAEMgUIABCABDIGCAAQFhAeMgYIABAWEB4yBggAEBYQHjIFCAAQhgMyBQgAEIYDMgUIABCGAzIFCAAQhgM6CggAEEcQ1gQQsAM6BwgAELADEENKBAhNGAFKBAhBGABKBAhGGABQnAFYnAFgvwNoAXABeACAAa0BiAGtAZIBAzAuMZgBAKABAqABAcgBCsABAQ&sclient=gws-wiz-serp) command-line interface (CLI). Also called the terminal, the command line, or the shell. It's a command language that allows us to work with files on our computers in a way that's far more efficient and powerful than using a GUI (graphical user interface)._
 
-<details><summary><b>A to Z command list 📚</b></summary>
+<details><summary><b>A to Z command list <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Books.webp" alt="Books" width="25" height="25" /></b></summary>
 <p>
 
 > **Note** 💡<br>
@@ -3118,7 +3118,7 @@ Credits: <a href="https://fossbytes.com"><b>fossbytes</b></a> & <a href="https:/
 </p>
  </details>
  
-<details><summary><b>Quick cheat sheet 📝</b></summary>
+<details><summary><b>Quick cheatsheet <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Memo.webp" alt="Memo" width="25" height="25" /></b></summary>
 <p>
   
 >**Note** 💡<br>
@@ -4029,7 +4029,7 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 </p>
  </details>
  
-<details><summary><b>Special characters 🔣</b></summary>
+<details><summary><b>Special characters <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Open%20Book.webp" alt="Open Book" width="25" height="25" /></b></summary>
 <p>
 
 > **Note** 💡<br>
@@ -4287,7 +4287,7 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 </p>
  </details>
  
-<details><b><summary>Keyboard controls ⌨️</b></summary>
+<details><b><summary>Keyboard controls <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Keyboard.webp" alt="Keyboard" width="25" height="25" /></b></summary>
 <p> 
 
 | Key | Function |
@@ -4434,6 +4434,8 @@ cht.sh keyword
 | [awesome-cli](https://github.com/umutphp/awesome-cli) | A simple command line tool to give you a fancy command line interface to dive into Awesome lists |
 | [terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy)  | A curated list of Terminal frameworks, plugins & resources for CLI lovers |
 | [awesome-ttygames](https://github.com/ligurio/awesome-ttygames) | Unix ASCII games |
+| [shell_gpt](https://github.com/TheR1D/shell_gpt) | A command-line productivity tool powered by AI large language models like GPT-4, will help you accomplish your tasks faster and more efficiently. |
+
 
 </p>
  </details>
