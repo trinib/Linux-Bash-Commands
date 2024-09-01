@@ -4435,6 +4435,7 @@ cht.sh keyword
 | [terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy)  | A curated list of Terminal frameworks, plugins & resources for CLI lovers |
 | [awesome-ttygames](https://github.com/ligurio/awesome-ttygames) | Unix ASCII games |
 | [shell_gpt](https://github.com/TheR1D/shell_gpt) | A command-line productivity tool powered by AI large language models like GPT-4, will help you accomplish your tasks faster and more efficiently. |
+| [aider](https://github.com/paul-gauthier/aider) | aider is AI pair programming in your terminal |
 
 
 </p>
