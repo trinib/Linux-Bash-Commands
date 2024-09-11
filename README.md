@@ -3115,6 +3115,9 @@ _Bash is the [Unix](https://www.google.com/search?q=What+is+UNIX+explain%3F&clie
 Credits: <a href="https://fossbytes.com"><b>fossbytes</b></a> & <a href="https://www.geeksforgeeks.org"><b>geeksforgeeks</b></a></p>
 
 [⬆ ʀᴇᴛᴜʀɴ ᴛᴏ ᴛᴏᴩ](#table) 
+
+---
+
 </p>
  </details>
  
@@ -4026,11 +4029,15 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 
 [⬆ ʀᴇᴛᴜʀɴ ᴛᴏ ᴄᴏɴᴛᴇɴᴛꜱ](#contents)
 
+---
+
 </p>
  </details>
  
 <details><summary><b>Special characters <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Open%20Book.webp" alt="Open Book" width="25" height="25" /></b></summary>
 <p>
+
+## Linux Special Characters
 
 > **Note** 💡<br>
 > This symbol "└─>" represents an alternative meaning of some characters.
@@ -4282,7 +4289,9 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 </tbody>
 </table>
 
- [⬆ ʀᴇᴛᴜʀɴ ᴛᴏ ᴛᴏᴩ](#special-characters-)
+[⬆ ʀᴇᴛᴜʀɴ ᴛᴏ ᴛᴏᴩ](#linux-special-characters)
+
+---
 
 </p>
  </details>
@@ -4290,69 +4299,195 @@ Inspired by <a href="https://github.com/RehanSaeed/Bash-Cheat-Sheet">RehanSaeed/
 <details><b><summary>Keyboard controls <img src="https://raw.githubusercontent.com/Tarikul-Islam-Anik/Telegram-Animated-Emojis/main/Objects/Keyboard.webp" alt="Keyboard" width="25" height="25" /></b></summary>
 <p> 
 
-| Key | Function |
-| :--: | :-- |
-| Ctrl+B     | Moves cursor backward one character position                       |
-| Ctrl+F     | Moves cursor forward one character position                        |
-| Alt+F      | Moves cursor one word forward in line                              |
-| Alt+B      | Moves cursor one word backwards in line                            |
-| Ctrl+A     | Moves cursor to beginning of text in line                          |
-| Ctrl+E     | Moves cursor to end of text in line                                |
-| Ctrl+D     | Erase character forward from cursor left to right                  |
-| Ctrl+H     | Erase character backward from cursor right to left                 |
-| Alt+D      | Erase the next word from cursor left to right                      |
-| Ctrl+W     | Erase backwards to first non-alphanumeric character or empty space |
-| Ctrl+U     | Erase a line of input from cursor right to left                    |
-| Ctrl+K     | Erase a line of input from cursor left to right                    |
-| Ctrl+P     | Fetch previous command from history list                           |
-| Ctrl+N     | Fetch next command from history list                               |
-| Ctrl+/     | Undo changes in command-line                                       |
-| Alt+R      | Reverts any changes to a previously executed command that's being edited |
-| Alt+.      | Fetch and paste the last word at end of a command from previous commands |
-| Ctrl+T     | Reverses the position of the character the cursor is on with the previous character |
-| Alt+T      | Reverses the position of the word the cursor is in with the previous word |
-| Alt+U      | Capitalizes every character from cursor left to right to the end of one word  |
-| Alt+L      | UnCapitalizes every character from cursor left to right to the end of one word |
-| Ctrl+R     | Reverse search commands from history list |
-| Ctrl+Y     | Causes the process to be stopped|
-| Ctrl+Z     | Pauses a foreground job  |
-| Ctrl+C     | Break/Terminate a foreground job |
-| Ctrl+M     | Clear the current line |
-| Ctrl+O     | Accept the current line for execution and fetch the next command |
-| Ctrl+L     | Clear screen contents (command-line needs to be empty) |
-| Ctrl+S     | Suspend |
-| Ctrl+Q     | Resume |
-| Ctrl+D     | Log out from a shell (similar to exit) |
- Ctrl+X(twice)| The cursor jumps back and forth between the current position to the beginning of the line |
+## Linux Keyboard Shortcuts
 
-### Nano 
-
-| Key | Function |
+| **Key** | **Function** |
 | :--: | :-- |
-| Ctrl+Y     | 	Scrolls page down |
-| Ctrl+V     | 	Scrolls page up|
-| Alt+\    | Go to beginning of file |
-| Alt+/    | Go to end of file |
-| Ctrl+H    | 	Delete character before cursor |
-| Ctrl+D   | Erase character under cursor |
-| Alt+Backspace    | 	Erase word to the left |
-| Ctrl+Del    |Erase word to the right |
-| Alt+Del    | 	Erase current line |
-| Alt+^     | Copy selected text |
-| Ctrl+U     | 	To paste the text from the cut buffer (similar to clipboard) into the selected line. |
-| Ctrl+K     | It cuts the entire selected line to the cut buffer. |
-| Alt+A     | To select text. You can combine this command with CTRL + K to cut a specific part of the text to the cut buffer.  |
-| Alt+U   | Undo last action  |
-| Alt+E    | Redo last undone action |
-| Ctrl+Q      | Start backward search. Press Ctrl+Q to search for the same phrase again |
-| Ctrl+W     | Start forward search. Press ALT+W to search for the same phrase again |
-| Ctrl+\    | Replaces string or a regular expression  |
-| Alt+3    | 	Comment/uncomment line/region |
-| Ctrl+R    | Opens a file and inserts it at the current cursor position |
-| Ctrl+O    | Write changes to a file ("Save as") |
-| Ctrl+S    | Save current file |
-| Ctrl+X    | To exit Nano text editor. It prompts a save request if you made any changes to the file  |
-| Ctrl+G     | A Help window will pop out and show you all the available commands |
+| **Cursor Movement** |
+| Ctrl+B | Move cursor backward one character position |
+| Ctrl+F | Move cursor forward one character position |
+| Alt+F | Move cursor one word forward in line |
+| Alt+B | Move cursor one word backward in line |
+| Ctrl+A | Move cursor to beginning of text in line |
+| Ctrl+E | Move cursor to end of text in line |
+| **Text Editing** |
+| Ctrl+D | Erase character forward from cursor left to right |
+| Ctrl+H | Erase character backward from cursor right to left |
+| Alt+D | Erase the next word from cursor left to right |
+| Ctrl+W | Erase backwards to first non-alphanumeric character or empty space |
+| Ctrl+U | Erase a line of input from cursor right to left |
+| Ctrl+K | Erase a line of input from cursor left to right |
+| Alt+R | Revert any changes to a previously executed command that's being edited |
+| Alt+. | Fetch and paste the last word at end of a command from previous commands |
+| Ctrl+T | Reverse the position of the character the cursor is on with the previous character |
+| Alt+T | Reverse the position of the word the cursor is in with the previous word |
+| Alt+U | Capitalize every character from cursor left to right to the end of one word |
+| Alt+L | Uncapitalize every character from cursor left to right to the end of one word |
+| Ctrl+Y | Paste (yank) text cut by Ctrl+U, Ctrl+K, or Ctrl+W |
+| Ctrl+_ | Undo last change |
+| **Command History** |
+| Ctrl+P | Fetch previous command from history list |
+| Ctrl+N | Fetch next command from history list |
+| Ctrl+R | Reverse search commands from history list |
+| **Process Control** |
+| Ctrl+C | Break/Terminate a foreground job |
+| Ctrl+Z | Suspend a foreground job |
+| Ctrl+S | Suspend output to screen |
+| Ctrl+Q | Resume output to screen |
+| **Terminal Control** |
+| Ctrl+L | Clear screen contents (command-line needs to be empty) |
+| Ctrl+D | Log out from a shell (similar to exit) or send EOF |
+| Ctrl+O | Accept the current line for execution and fetch the next command |
+| Ctrl+X (twice) | Toggle cursor between current position and beginning of the line |
+| **Text Editing (Terminal)** |
+| Ctrl+Shift+C | Copy |
+| Ctrl+Shift+V | Paste |
+| Shift+Insert | Paste (alternative) |
+
+<i>Some of these shortcuts may vary depending on your terminal and system.</i>
+
+## Nano (text editor)
+
+| **Key**       | **Function** |
+| :--: | :-- |
+| **Movement**  | |
+| `Ctrl+Y`      | Scroll page **up** |
+| `Ctrl+V`      | Scroll page **down** |
+| `Alt+\`       | Go to the beginning of the file |
+| `Alt+/`       | Go to the end of the file |
+| **Editing**   | |
+| `Ctrl+H`      | Delete the character before the cursor |
+| `Ctrl+D`      | Delete the character under the cursor |
+| `Alt+Backspace`| Delete the word to the left |
+| `Ctrl+Del`    | Delete the word to the right |
+| `Alt+Del`     | Delete the current line |
+| `Alt+^`       | Copy selected text to the cut buffer |
+| `Ctrl+K`      | Cut selected text to the cut buffer |
+| `Ctrl+U`      | Paste text from the cut buffer (clipboard) |
+| `Alt+A`       | Start text selection (can be used with Ctrl+K to cut specific text) |
+| `Ctrl+J`      | Justify (wrap) the current paragraph |
+| **Undo and Redo** | |
+| `Alt+U`       | Undo the last action |
+| `Alt+E`       | Redo the last undone action |
+| **Search and Replace** | |
+| `Ctrl+Q`      | Start backward search (press again to repeat) |
+| `Ctrl+W`      | Start forward search (press Alt+W to search for the same term again) |
+| `Ctrl+\`      | Replace a string or regular expression |
+| **File Operations** | |
+| `Ctrl+R`      | Insert a file at the current cursor position |
+| `Ctrl+O`      | Write changes to the file ("Save as") |
+| `Ctrl+S`      | Save the current file |
+| `Ctrl+X`      | Exit Nano (prompts to save changes if needed) |
+| **Miscellaneous** | |
+| `Alt+3`       | Comment/uncomment the line/region |
+| `Ctrl+G`      | Show help for all available commands |
+| `Ctrl+T`      | Open the spell checker |
+
+## Vim (text editor)
+
+| **Key** | **Function** |
+| :--: | :-- |
+| **Movement** | |
+| `h` | Move left |
+| `j` | Move down |
+| `k` | Move up |
+| `l` | Move right |
+| `w` | Move forward to the beginning of the next word |
+| `b` | Move backward to the beginning of the previous word |
+| `e` | Move to the end of the current word |
+| `0` (zero) | Move to the beginning of the line |
+| `$` | Move to the end of the line |
+| `gg` | Go to the first line of the document |
+| `G` | Go to the last line of the document |
+| `:{number}` | Go to a specific line number |
+| `Ctrl+f` | Page down |
+| `Ctrl+b` | Page up |
+| `%` | Move to matching parenthesis or bracket |
+| `^` | Move to the first non-blank character of the line |
+| `H` | Move to the top of the screen |
+| `M` | Move to the middle of the screen |
+| `L` | Move to the bottom of the screen |
+| `*` | Search forward for the word under the cursor |
+| `#` | Search backward for the word under the cursor |
+| **Editing** | |
+| `i` | Insert before the cursor |
+| `I` | Insert at the beginning of the line |
+| `a` | Append after the cursor |
+| `A` | Append at the end of the line |
+| `o` | Open a new line below the current line |
+| `O` | Open a new line above the current line |
+| `r` | Replace a single character |
+| `R` | Enter replace mode |
+| `x` | Delete the character under the cursor |
+| `X` | Delete the character before the cursor |
+| `dd` | Delete the current line |
+| `D` | Delete from the cursor to the end of the line |
+| `yy` | Yank (copy) the current line |
+| `p` | Paste after the cursor |
+| `P` | Paste before the cursor |
+| `u` | Undo the last action |
+| `Ctrl+r` | Redo the last undone action |
+| **Visual Mode** | |
+| `v` | Enter visual mode (character selection) |
+| `V` | Enter visual line mode |
+| `Ctrl+v` | Enter visual block mode |
+| **Text Objects** | |
+| `ciw` | Change the inner word |
+| `diw` | Delete the inner word |
+| `yaw` | Yank (copy) the entire word |
+| `ci"` | Change text inside double quotes |
+| `di(` | Delete text inside parentheses |
+| **Search and Replace** | |
+| `/pattern` | Search forward for 'pattern' |
+| `?pattern` | Search backward for 'pattern' |
+| `n` | Repeat the search in the same direction |
+| `N` | Repeat the search in the opposite direction |
+| `:%s/old/new/g` | Replace all occurrences of 'old' with 'new' in the file |
+| `:%s/old/new/gc` | Replace all occurrences of 'old' with 'new' with confirmation |
+| **File Operations** | |
+| `:w` | Write (save) the file |
+| `:w filename` | Write to a specific filename |
+| `:q` | Quit Vim |
+| `:q!` | Quit without saving changes |
+| `:wq` | Write and quit |
+| `:x` | Write and quit (same as `wq`) |
+| **Multiple Files** | |
+| `:e filename` | Edit a file in a new buffer |
+| `:bnext` or `:bn` | Go to the next buffer |
+| `:bprev` or `:bp` | Go to the previous buffer |
+| `:bd` | Delete a buffer (close the file) |
+| `:sp filename` | Open a file in a new buffer and split the window horizontally |
+| `:vsp filename` | Open a file in a new buffer and split the window vertically |
+| `Ctrl+ws` | Split the window horizontally |
+| `Ctrl+wv` | Split the window vertically |
+| `Ctrl+ww` | Switch between windows |
+| `Ctrl+wq` | Quit the current window |
+| **Macros** | |
+| `qa` | Record macro in register 'a' |
+| `q` | Stop recording macro |
+| `@a` | Run macro from register 'a' |
+| `@@` | Rerun the last executed macro |
+| **Marking and Jumping** | |
+| `m{a-z}` | Set a mark with a letter (a-z) in the current position |
+| `'a` | Jump to the line with mark 'a' |
+| `` `a `` | Jump to the exact position with mark 'a' |
+| `:marks` | List all the marks |
+| `Ctrl+o` | Jump to the previous location |
+| `Ctrl+i` | Jump to the next location |
+| **Tabs** | |
+| `:tabnew` | Open a new tab |
+| `gt` or `:tabnext` | Go to the next tab |
+| `gT` or `:tabprev` | Go to the previous tab |
+| `:tabclose` | Close the current tab |
+| `:tabs` | List all open tabs |
+| **Miscellaneous** | |
+| `.` | Repeat the last command |
+| `ZZ` | Write the current file (if modified) and quit |
+| `ZQ` | Quit without checking for changes |
+| `Ctrl+g` | Show the file name and status |
+| `g Ctrl+g` | Show the cursor position (line, column, and character) |
+
+[⬆ ʀᴇᴛᴜʀɴ ᴛᴏ ᴛᴏᴩ](#linux-keyboard-shortcuts)
 
 </p>
  </details>
@@ -4417,26 +4552,36 @@ cht.sh keyword
 
 <details><summary><b>More bash resources</b> <img src="https://user-images.githubusercontent.com/18756975/203332636-6012a214-21d9-423a-b20e-09beed4d9a25.png" width=15px height=20px></summary>
 
-|  |  |
-| :--: | :--: |
-| [introduction-to-bash-scripting](https://github.com/bobbyiliev/introduction-to-bash-scripting)  | Free Introduction to Bash Scripting eBook|
-| [shell-scripting-tutorial](https://github.com/techarkit/shell-scripting-tutorial)  | A complete begineers guide to learn shell scripting from scratch which includes Videos, Practice scenarios and project idea. |
-| [100-shell-script-examples](https://github.com/epety/100-shell-script-examples) | Collection of shell scripts found on the internet |
-| [simple-bash-scripts](https://github.com/ruanyf/simple-bash-scripts)  | A collection of simple Bash scripts |
-| [shell-examples](https://github.com/qjcg/shell-examples)  | Little Bash shell scripting examples |
-| [bash-utils](https://github.com/pirate/bash-utils)| A collection of hand-crafted bash scripts for various common tasks |
-| [Bash-Snippets](https://github.com/alexanderepstein/Bash-Snippets)  | A collection of small bash scripts for heavy terminal users |
-| [awesome-bash](https://github.com/awesome-lists/awesome-bash)  | A curated list of delightful Bash scripts and resources |
-| [awesome-shell](https://github.com/uhub/awesome-shell)  | A curated list of awesome Shell frameworks, libraries and software |
-| [awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps)   | A curated list of command line apps |
-| [cli-apps](https://github.com/toolleeo/cli-apps)  | Awesome Curated list of (mainly) CLI/TUI applications with source data organized into CSV files |
-| [awesome-cli](https://github.com/Kikobeats/awesome-cli) | A curated list of awesome resources for building immersive CLI experiences |
-| [awesome-cli](https://github.com/umutphp/awesome-cli) | A simple command line tool to give you a fancy command line interface to dive into Awesome lists |
-| [terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy)  | A curated list of Terminal frameworks, plugins & resources for CLI lovers |
-| [awesome-ttygames](https://github.com/ligurio/awesome-ttygames) | Unix ASCII games |
-| [shell_gpt](https://github.com/TheR1D/shell_gpt) | A command-line productivity tool powered by AI large language models like GPT-4, will help you accomplish your tasks faster and more efficiently. |
-| [aider](https://github.com/paul-gauthier/aider) | aider is AI pair programming in your terminal |
-
+| **Repository** | **Description** |
+| :--: | :-- | 
+| **Bash/Shell Scripting Tutorials and Guides** |
+| [introduction-to-bash-scripting](https://github.com/bobbyiliev/introduction-to-bash-scripting) | Free Introduction to Bash Scripting eBook. |
+| [shell-scripting-tutorial](https://github.com/techarkit/shell-scripting-tutorial) | A complete beginner's guide to learning shell scripting from scratch, with videos, practice scenarios, and project ideas. |
+| [100-shell-script-examples](https://github.com/epety/100-shell-script-examples) | A collection of shell scripts found on the internet. |
+| [simple-bash-scripts](https://github.com/ruanyf/simple-bash-scripts) | A collection of simple Bash scripts. |
+| [shell-examples](https://github.com/qjcg/shell-examples) | Little Bash shell scripting examples. |
+| [Shell Cheat Sheet](https://github.com/LeCoupa/awesome-cheatsheets/blob/master/languages/shell.sh) | A detailed and organized shell scripting cheat sheet for quick reference. |
+| [bash-utils](https://github.com/pirate/bash-utils) | A collection of hand-crafted bash scripts for various common tasks. |
+| [Bash-Snippets](https://github.com/alexanderepstein/Bash-Snippets) | A collection of small bash scripts for heavy terminal users. |
+| [DevOps Bash Tools](https://github.com/HariSekhon/DevOps-Bash-tools) | A comprehensive collection of 1000+ DevOps bash scripts for AWS, GCP, Kubernetes, Docker, CI/CD, databases, and more. |
+| [Bash Booster](https://github.com/bahamas10/bash-booster) | A modular bash framework that simplifies the process of writing bash scripts. |
+| [pure-bash-bible](https://github.com/dylanaraps/pure-bash-bible) | A collection of pure bash snippets for common tasks like string manipulation, file handling, etc., with no external dependencies. |
+| **Curated Lists of Bash/Shell Resources** |
+| [awesome-bash](https://github.com/awesome-lists/awesome-bash) | A curated list of delightful Bash scripts and resources. |
+| [awesome-shell](https://github.com/uhub/awesome-shell) | A curated list of awesome Shell frameworks, libraries, and software. |
+| [awesome-shell](https://github.com/alebcay/awesome-shell) | A list of awesome shell tools and resources, including libraries and scripts for enhancing the command-line experience. |
+| [awesome-cli-apps](https://github.com/agarrharr/awesome-cli-apps) | A curated list of command line apps. |
+| [cli-apps](https://github.com/toolleeo/cli-apps) | A curated list of (mainly) CLI/TUI applications with source data organized into CSV files. |
+| [awesome-cli](https://github.com/Kikobeats/awesome-cli) | A curated list of awesome resources for building immersive CLI experiences. |
+| [awesome-cli](https://github.com/umutphp/awesome-cli) | A simple command line tool to give you a fancy command line interface to dive into Awesome lists. |
+| **AI-Enhanced Command Line Tools** |
+| [shell_gpt](https://github.com/TheR1D/shell_gpt) | A command-line productivity tool powered by AI large language models like GPT-4. |
+| [aider](https://github.com/paul-gauthier/aider) | AI pair programming in your terminal. |
+| [warp](https://github.com/warpdotdev/Warp) | Warp is a modern, Rust-based terminal with AI built in so you and your team can build great software, faster. |
+| [plandex](https://github.com/plandex-ai/plandex) | AI driven development in your terminal. Designed for large, real-world tasks. |
+| **Other Fun and Useful Shell Tools** |
+| [awesome-ttygames](https://github.com/ligurio/awesome-ttygames) | Unix ASCII games. |
+| [terminals-are-sexy](https://github.com/k4m4/terminals-are-sexy) | A curated list of Terminal frameworks, plugins, and resources for CLI lovers. |
 
 </p>
  </details>
