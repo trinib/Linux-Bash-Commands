@@ -3256,7 +3256,7 @@ rsync -avz username@hostname:/foo /bar                 # Copy remote directory t
 ## Deleting Directories
 
 ```bash
-rmdir foo                        # Delete non-empty directory
+rmdir foo                        # Delete empty directory
 rm -r|--recursive foo            # Delete directory including contents
 rm -r|--recursive -f|--force foo # Delete directory including contents, ignore nonexistent files and never prompt
 ```
