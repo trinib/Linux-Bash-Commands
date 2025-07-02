@@ -4567,6 +4567,7 @@ cht.sh keyword
 | [Bash Booster](https://github.com/bahamas10/bash-booster) | A modular bash framework that simplifies the process of writing bash scripts. |
 | [pure-bash-bible](https://github.com/dylanaraps/pure-bash-bible) | A collection of pure bash snippets for common tasks like string manipulation, file handling, etc., with no external dependencies. |
 | **Curated Lists of Bash/Shell Resources** |
+| [awesome-terminals)](https://github.com/cdleon/awesome-terminals) | Terminal Emulators. |
 | [awesome-bash](https://github.com/awesome-lists/awesome-bash) | A curated list of delightful Bash scripts and resources. |
 | [awesome-shell](https://github.com/uhub/awesome-shell) | A curated list of awesome Shell frameworks, libraries, and software. |
 | [awesome-shell](https://github.com/alebcay/awesome-shell) | A list of awesome shell tools and resources, including libraries and scripts for enhancing the command-line experience. |
